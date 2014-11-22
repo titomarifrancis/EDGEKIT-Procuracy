@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ActionCommands.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ItemClickCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\DelegateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommandEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\InternetConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\VariableSizedGrid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Html2Xaml\Html2Xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\Html2Xaml\RichTextBlockProperties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\TextPlainConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\ThumbnailConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\VisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\IncreaseConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\MapsServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\NavigationServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\NokiaMusicServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ShareServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\SpeechServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AboutThisAppViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\PrivacyViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SupplierOrganizationViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TradingViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ConsultancyViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\DistributorViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ExecutiveSoleDistributorViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GeneralContractorViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GeneralMerchandiseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\InformationTechnologyViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ManufacturerViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NonGovernmentOrganizationViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\OthersViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ServicesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SystemIntegratorViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TelecommunicationsSolutionsViewModel.cs" />
+        <PRIResource Include="$(MSBuildThisFileDirectory)Strings\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\FlipSquareTile.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\FlipWideTile.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\menuitem-icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\SupplierOrganizationDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\TradingDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\ConsultancyDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\DistributorDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\ExecutiveSoleDistributorDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\GeneralContractorDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\GeneralMerchandiseDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\InformationTechnologyDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\ManufacturerDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\NonGovernmentOrganizationDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\OthersDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\ServicesDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\SystemIntegratorDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\TelecommunicationsSolutionsDataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+      </ItemGroup>
+</Project>

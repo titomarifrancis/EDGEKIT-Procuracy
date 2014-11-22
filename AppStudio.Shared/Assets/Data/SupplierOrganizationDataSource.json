@@ -1,0 +1,82 @@
+{
+  "Items": [
+    {
+      "Type": "Section",
+      "Title": "Consultancy",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "ConsultancyPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Distributor",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "DistributorPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Executive/Sole Distributor",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "ExecutiveSoleDistributorPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "General Contractor",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "GeneralContractorPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "General Merchandise",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "GeneralMerchandisePage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Information Technology",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "InformationTechnologyPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Manufacturer",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "ManufacturerPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Non-Government Organization",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "NonGovernmentOrganizationPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Others",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "OthersPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Services",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "ServicesPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "System Integrator",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "SystemIntegratorPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Telecommunications Solutions",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "TelecommunicationsSolutionsPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Trading",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "TradingPage"
+    }
+  ]
+}

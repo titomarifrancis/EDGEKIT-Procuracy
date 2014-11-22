@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{fc57d4fd-7791-4623-af15-9b4da6c428ef}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppStudio</RootNamespace>
+    <AssemblyName>AppStudio</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile></PackageCertificateKeyFile>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="Properties\Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AppBar\GoToSource.png" />
+    <Content Include="Assets\AppBar\PinToStart.png" />
+    <Content Include="Assets\AppBar\Refresh.png" />
+    <Content Include="Assets\AppBar\TextToSpeech.png" />
+    <Content Include="Assets\BadgeLogo.png" />
+    <Content Include="Views\DataTemplates\SupplierOrganizationViews.xaml" />
+    <Content Include="Views\DataTemplates\TradingViews.xaml" />
+    <Content Include="Views\DataTemplates\ConsultancyViews.xaml" />
+    <Content Include="Views\DataTemplates\DistributorViews.xaml" />
+    <Content Include="Views\DataTemplates\ExecutiveSoleDistributorViews.xaml" />
+    <Content Include="Views\DataTemplates\GeneralContractorViews.xaml" />
+    <Content Include="Views\DataTemplates\GeneralMerchandiseViews.xaml" />
+    <Content Include="Views\DataTemplates\InformationTechnologyViews.xaml" />
+    <Content Include="Views\DataTemplates\ManufacturerViews.xaml" />
+    <Content Include="Views\DataTemplates\NonGovernmentOrganizationViews.xaml" />
+    <Content Include="Views\DataTemplates\OthersViews.xaml" />
+    <Content Include="Views\DataTemplates\ServicesViews.xaml" />
+    <Content Include="Views\DataTemplates\SystemIntegratorViews.xaml" />
+    <Content Include="Views\DataTemplates\TelecommunicationsSolutionsViews.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\ApplicationLogo.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Views\AppFlyouts\PrivacyFlyout.xaml.cs">
+      <DependentUpon>PrivacyFlyout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImageViewer.xaml.cs">
+      <DependentUpon>ImageViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TradingPage.xaml.cs">
+      <DependentUpon>TradingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ConsultancyPage.xaml.cs">
+      <DependentUpon>ConsultancyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DistributorPage.xaml.cs">
+      <DependentUpon>DistributorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExecutiveSoleDistributorPage.xaml.cs">
+      <DependentUpon>ExecutiveSoleDistributorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GeneralContractorPage.xaml.cs">
+      <DependentUpon>GeneralContractorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GeneralMerchandisePage.xaml.cs">
+      <DependentUpon>GeneralMerchandisePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InformationTechnologyPage.xaml.cs">
+      <DependentUpon>InformationTechnologyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManufacturerPage.xaml.cs">
+      <DependentUpon>ManufacturerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NonGovernmentOrganizationPage.xaml.cs">
+      <DependentUpon>NonGovernmentOrganizationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OthersPage.xaml.cs">
+      <DependentUpon>OthersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ServicesPage.xaml.cs">
+      <DependentUpon>ServicesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemIntegratorPage.xaml.cs">
+      <DependentUpon>SystemIntegratorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TelecommunicationsSolutionsPage.xaml.cs">
+      <DependentUpon>TelecommunicationsSolutionsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TradingList.xaml.cs">
+      <DependentUpon>TradingList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ConsultancyList.xaml.cs">
+      <DependentUpon>ConsultancyList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DistributorList.xaml.cs">
+      <DependentUpon>DistributorList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExecutiveSoleDistributorList.xaml.cs">
+      <DependentUpon>ExecutiveSoleDistributorList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GeneralContractorList.xaml.cs">
+      <DependentUpon>GeneralContractorList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GeneralMerchandiseList.xaml.cs">
+      <DependentUpon>GeneralMerchandiseList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InformationTechnologyList.xaml.cs">
+      <DependentUpon>InformationTechnologyList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManufacturerList.xaml.cs">
+      <DependentUpon>ManufacturerList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NonGovernmentOrganizationList.xaml.cs">
+      <DependentUpon>NonGovernmentOrganizationList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OthersList.xaml.cs">
+      <DependentUpon>OthersList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ServicesList.xaml.cs">
+      <DependentUpon>ServicesList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemIntegratorList.xaml.cs">
+      <DependentUpon>SystemIntegratorList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TelecommunicationsSolutionsList.xaml.cs">
+      <DependentUpon>TelecommunicationsSolutionsList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TradingDetailPage.xaml.cs">
+      <DependentUpon>TradingDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ConsultancyDetailPage.xaml.cs">
+      <DependentUpon>ConsultancyDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DistributorDetailPage.xaml.cs">
+      <DependentUpon>DistributorDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExecutiveSoleDistributorDetailPage.xaml.cs">
+      <DependentUpon>ExecutiveSoleDistributorDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GeneralContractorDetailPage.xaml.cs">
+      <DependentUpon>GeneralContractorDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GeneralMerchandiseDetailPage.xaml.cs">
+      <DependentUpon>GeneralMerchandiseDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InformationTechnologyDetailPage.xaml.cs">
+      <DependentUpon>InformationTechnologyDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManufacturerDetailPage.xaml.cs">
+      <DependentUpon>ManufacturerDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NonGovernmentOrganizationDetailPage.xaml.cs">
+      <DependentUpon>NonGovernmentOrganizationDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OthersDetailPage.xaml.cs">
+      <DependentUpon>OthersDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ServicesDetailPage.xaml.cs">
+      <DependentUpon>ServicesDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemIntegratorDetailPage.xaml.cs">
+      <DependentUpon>SystemIntegratorDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TelecommunicationsSolutionsDetailPage.xaml.cs">
+      <DependentUpon>TelecommunicationsSolutionsDetailPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Views\AppFlyouts\PrivacyFlyout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ImageViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TradingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ConsultancyPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DistributorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ExecutiveSoleDistributorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GeneralContractorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GeneralMerchandisePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\InformationTechnologyPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ManufacturerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NonGovernmentOrganizationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OthersPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ServicesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SystemIntegratorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TelecommunicationsSolutionsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TradingList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ConsultancyList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DistributorList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ExecutiveSoleDistributorList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GeneralContractorList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GeneralMerchandiseList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\InformationTechnologyList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ManufacturerList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NonGovernmentOrganizationList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OthersList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ServicesList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SystemIntegratorList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TelecommunicationsSolutionsList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TradingDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ConsultancyDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DistributorDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ExecutiveSoleDistributorDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GeneralContractorDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GeneralMerchandiseDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\InformationTechnologyDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ManufacturerDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NonGovernmentOrganizationDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OthersDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ServicesDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SystemIntegratorDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TelecommunicationsSolutionsDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ControlStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\AppStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="BehaviorsXamlSDKManaged, Version=12.0">
+      <Name>Behaviors SDK %28XAML%29</Name>
+    </SDKReference>
+    <SDKReference Include="MSAdvertisingXaml, Version=8.1">
+      <Name>Microsoft Advertising SDK for Windows 8.1 %28Xaml%29</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Reference Include="AppStudio.Common">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AppStudio.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.5\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage">
+      <HintPath>..\packages\PCLStorage.0.9.6\lib\portable-win8+wpa81\PCLStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions">
+      <HintPath>..\packages\PCLStorage.0.9.6\lib\portable-win8+wpa81\PCLStorage.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppStudio.Data\AppStudio.Data.csproj">
+      <Project>{521f8dac-8545-4644-bee6-5bae5d544c20}</Project>
+      <Name>AppStudio.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="..\AppStudio.Shared\AppStudio.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

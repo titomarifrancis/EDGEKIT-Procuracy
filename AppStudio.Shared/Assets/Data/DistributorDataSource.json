@@ -1,0 +1,25 @@
+{
+  "Items": [
+    {
+      "org_name": "METRO GAISANO AYALA",
+      "website": "",
+      "org_description": "",
+      "address": "Ayala Center Cebu",
+      "_id": "3667f3bd-9524-46a4-9892-2313aa134888"
+    },
+    {
+      "org_name": "PROLINE ELECTRO SYSTEM",
+      "website": "",
+      "org_description": "Retailer of General Merchandise such as electronic supplies and parts/rental of sounds.",
+      "address": "Governor Duterte Street, Davao City, Rehiyon ng Davao",
+      "_id": "40cc5402-9e60-45e2-a4e9-d4ac4975b08c"
+    },
+    {
+      "org_name": "STA. ROSA FLOWER SHOP",
+      "website": "",
+      "org_description": "",
+      "address": "Rizal Boulevard, Brgy. Kanluran, sta rosa",
+      "_id": "8cec1bef-5009-4463-987e-e734f49dd076"
+    }
+  ]
+}

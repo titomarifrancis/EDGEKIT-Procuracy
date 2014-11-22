@@ -1,0 +1,2 @@
+C:\Users\Tito Mari Francis\Downloads\App\AppStudio.Data\AppStudio.Data.csproj;neutral
+C:\Users\Tito Mari Francis\Downloads\App\AppStudio.WindowsPhone\AppStudio.WindowsPhone.csproj;neutral

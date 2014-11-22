@@ -1,0 +1,39 @@
+{
+  "Items": [
+    {
+      "org_name": "S & S WASTE MANAGEMENT AND GENERAL TRADING CO.",
+      "website": "",
+      "org_description": "",
+      "address": "P. Vallejo Kanluran Pob., Santa Rosa Philippines",
+      "_id": "6c4df15f-2067-472b-91da-db7a29a19714"
+    },
+    {
+      "org_name": "ELIZABETH S. TAN",
+      "website": "",
+      "org_description": "",
+      "address": "386 P. Guevarra, Addition Hills, San Juan",
+      "_id": "c17c97f9-548d-46e4-b435-dd11345ed2bd"
+    },
+    {
+      "org_name": "ESERVICES GLOBAL SOLUTIONS, INC.",
+      "website": "",
+      "org_description": "",
+      "address": "1616 E. Rodriguez Sr. Avenue, Cubao",
+      "_id": "c6ff1a7b-f61d-4ba7-9309-b1433c9b1fba"
+    },
+    {
+      "org_name": "CESAR S. PINEDA",
+      "website": "",
+      "org_description": "An individual consultant rendering consultancy services for Information, Communications and Technology(ICT) and telecommunications businesses  for private and government and academic sectors.",
+      "address": "Vista Real Ave, Quezon City, Metro Manila",
+      "_id": "c68622ea-b094-48be-9a85-012ff44269c3"
+    },
+    {
+      "org_name": "ODENCI ENJINIA CONSULT, INC.",
+      "website": "",
+      "org_description": "",
+      "address": " taytay, rizal",
+      "_id": "31f6ffcb-d4cf-4f5d-91d4-96f1c9f3daa2"
+    }
+  ]
+}
