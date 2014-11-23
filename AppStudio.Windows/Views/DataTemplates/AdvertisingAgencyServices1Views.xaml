@@ -1,0 +1,169 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:AppStudio.Controls"
+    xmlns:html2xaml="using:AppStudio.Controls.Html2Xaml"
+    xmlns:commands="using:AppStudio.Commands">
+
+    <!-- ListNoPhoto -->
+    <DataTemplate x:Key="AdvertisingAgencyServices1List">
+        <Grid MinWidth="480">
+            <GridView ItemsSource="{Binding PreviewItems}" SelectionMode="None" IsSwipeEnabled="False" IsItemClickEnabled="True"  commands:ItemClickCommand.Command="{Binding ItemClickCommand}"
+                      ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                     ItemTemplate="{StaticResource AdvertisingAgencyServices1Item}">
+            </GridView>
+            <ProgressBar Height="40" Foreground="White" VerticalAlignment="Top" IsIndeterminate="True" Visibility="{Binding ProgressBarVisibility}" />
+        </Grid>
+    </DataTemplate>
+
+    <DataTemplate x:Key="AdvertisingAgencyServices1ListSnapped">
+        <Grid Width="230">
+            <GridView ItemsSource="{Binding PreviewItems}" SelectionMode="None" IsSwipeEnabled="False" IsItemClickEnabled="True" commands:ItemClickCommand.Command="{Binding ItemClickCommand}"
+                      ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                      ItemTemplate="{StaticResource AdvertisingAgencyServices1ItemSnapped}">
+            </GridView>
+            <ProgressBar Height="40" Foreground="White" VerticalAlignment="Top" IsIndeterminate="True" Visibility="{Binding ProgressBarVisibility}" />
+        </Grid>
+    </DataTemplate>
+
+    <!-- ListNoPhoto Item -->
+    <DataTemplate x:Key="AdvertisingAgencyServices1Item">
+        <Grid Width="480" Height="120">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Margin="16, 16, 16, 0" Style="{StaticResource ItemHeaderText}" Text="{Binding title, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}" />
+            <TextBlock Grid.Row="1" Margin="16, 0, 16, 16" Style="{StaticResource ItemSubheaderText}" Text="{Binding amount, Converter={StaticResource TextPlainConverter}, ConverterParameter=280}" />
+        </Grid>
+    </DataTemplate>
+
+    <DataTemplate x:Key="AdvertisingAgencyServices1ItemSnapped">
+        <Grid Width="220" Height="100">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Margin="8, 8, 8, 0" Style="{StaticResource ItemHeaderTextSnapped}" Text="{Binding title, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}" />
+            <TextBlock Grid.Row="1" Margin="8, 0, 8, 8" Style="{StaticResource ItemSubheaderTextSnapped}" Text="{Binding amount, Converter={StaticResource TextPlainConverter}, ConverterParameter=280}" />
+        </Grid>
+    </DataTemplate>
+
+
+    <!-- DetailMultiColumn -->
+    <DataTemplate x:Key="AdvertisingAgencyServices3DetailDetail">
+      <ScrollViewer VerticalScrollBarVisibility="Auto" ZoomMode="Disabled">
+        <Grid Margin="12,0">
+          <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="Auto"/>
+          </Grid.ColumnDefinitions>
+
+          <TextBlock Grid.ColumnSpan="2" Style="{StaticResource HeaderText}" Text="{Binding awardees, Converter={StaticResource TextPlainConverter}, ConverterParameter = 140}" />
+          
+          <Button Grid.Row="1" Margin="0,12" VerticalAlignment="Top" Style="{StaticResource LocationActionButton}"
+                  Command="{Binding Source={StaticResource ActionCommands}, Path=MapsPosition}" CommandParameter="{Binding awardeesaddress}" 
+                  Content="{Binding awardeesaddress, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}"/>
+          <RichTextBlock Grid.Row="3" Grid.Column="0" Grid.RowSpan="3" Margin="0,12"
+                         Style="{StaticResource Html2XamlStyle}" html2xaml:Properties.Html="" />
+        </Grid>
+      </ScrollViewer>
+    </DataTemplate>
+    <DataTemplate x:Key="AdvertisingAgencyServices3DetailDetailSnapped">
+        <Grid Width="230">
+            <StackPanel>
+                <TextBlock Margin="0,0,0,30" Style="{StaticResource HeaderText}" Text="{Binding awardees, Converter={StaticResource TextPlainConverter}, ConverterParameter = 140}" />
+                <Button Margin="0,12" VerticalAlignment="Top" Style="{StaticResource LocationActionButton}"
+                        Command="{Binding Source={StaticResource ActionCommands}, Path=MapsPosition}" CommandParameter="{Binding awardeesaddress}" 
+                        Content="{Binding awardeesaddress, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}"/>
+                <RichTextBlock Margin="0, 30" Style="{StaticResource Html2XamlStyle}" html2xaml:Properties.Html="" />
+            </StackPanel>
+        </Grid>
+    </DataTemplate>
+    <!-- DetailMultiColumn -->
+    <DataTemplate x:Key="AdvertisingAgencyServices4DetailDetail">
+      <ScrollViewer VerticalScrollBarVisibility="Auto" ZoomMode="Disabled">
+        <Grid Margin="12,0">
+          <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="Auto"/>
+          </Grid.ColumnDefinitions>
+
+          <TextBlock Grid.ColumnSpan="2" Style="{StaticResource HeaderText}" Text="{Binding contact, Converter={StaticResource TextPlainConverter}, ConverterParameter = 140}" />
+          
+          <Button Grid.Row="1" Margin="0,12" VerticalAlignment="Top" Style="{StaticResource LocationActionButton}"
+                  Command="{Binding Source={StaticResource ActionCommands}, Path=MapsPosition}" CommandParameter="{Binding contactaddress}" 
+                  Content="{Binding contactaddress, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}"/>
+          <Button Grid.Row="3" Grid.Column="0" Margin="0,12" VerticalAlignment="Top" Style="{StaticResource CallActionButton}"
+                  Command="{Binding Source={StaticResource ActionCommands}, Path=CallToPhone}" CommandParameter="{Binding telephone}"
+                  Content="{Binding telephone, Converter={StaticResource TextPlainConverter}}"/>
+        </Grid>
+      </ScrollViewer>
+    </DataTemplate>
+    <DataTemplate x:Key="AdvertisingAgencyServices4DetailDetailSnapped">
+        <Grid Width="230">
+            <StackPanel>
+                <TextBlock Margin="0,0,0,30" Style="{StaticResource HeaderText}" Text="{Binding contact, Converter={StaticResource TextPlainConverter}, ConverterParameter = 140}" />
+                <Button Margin="0,12" VerticalAlignment="Top" Style="{StaticResource LocationActionButton}"
+                        Command="{Binding Source={StaticResource ActionCommands}, Path=MapsPosition}" CommandParameter="{Binding contactaddress}" 
+                        Content="{Binding contactaddress, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}"/>
+                <Button Margin="0,12" VerticalAlignment="Top" Style="{StaticResource CallActionButton}"
+                        Command="{Binding Source={StaticResource ActionCommands}, Path=CallToPhone}" CommandParameter="{Binding telephone}"
+                        Content="{Binding telephone, Converter={StaticResource TextPlainConverter}}"/>
+            </StackPanel>
+        </Grid>
+    </DataTemplate>
+    <!-- DetailMultiColumn -->
+    <DataTemplate x:Key="AdvertisingAgencyServices5DetailDetail">
+      <ScrollViewer VerticalScrollBarVisibility="Auto" ZoomMode="Disabled">
+        <Grid Margin="12,0">
+          <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="Auto"/>
+          </Grid.ColumnDefinitions>
+
+          <TextBlock Grid.ColumnSpan="2" Style="{StaticResource HeaderText}" Text="{Binding organizationname, Converter={StaticResource TextPlainConverter}, ConverterParameter = 140}" />
+          
+          <Button Grid.Row="1" Margin="0,12" VerticalAlignment="Top" Style="{StaticResource LocationActionButton}"
+                  Command="{Binding Source={StaticResource ActionCommands}, Path=MapsPosition}" CommandParameter="{Binding organizationaddress}" 
+                  Content="{Binding organizationaddress, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}"/>
+          <RichTextBlock Grid.Row="3" Grid.Column="0" Grid.RowSpan="3" Margin="0,12"
+                         Style="{StaticResource Html2XamlStyle}" html2xaml:Properties.Html="" />
+        </Grid>
+      </ScrollViewer>
+    </DataTemplate>
+    <DataTemplate x:Key="AdvertisingAgencyServices5DetailDetailSnapped">
+        <Grid Width="230">
+            <StackPanel>
+                <TextBlock Margin="0,0,0,30" Style="{StaticResource HeaderText}" Text="{Binding organizationname, Converter={StaticResource TextPlainConverter}, ConverterParameter = 140}" />
+                <Button Margin="0,12" VerticalAlignment="Top" Style="{StaticResource LocationActionButton}"
+                        Command="{Binding Source={StaticResource ActionCommands}, Path=MapsPosition}" CommandParameter="{Binding organizationaddress}" 
+                        Content="{Binding organizationaddress, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}"/>
+                <RichTextBlock Margin="0, 30" Style="{StaticResource Html2XamlStyle}" html2xaml:Properties.Html="" />
+            </StackPanel>
+        </Grid>
+    </DataTemplate>
+</ResourceDictionary>

@@ -38,20 +38,28 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AboutThisAppViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\PrivacyViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SupplierOrganizationViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TradingViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ConsultancyViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\DistributorViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ExecutiveSoleDistributorViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GeneralContractorViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GeneralMerchandiseViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\InformationTechnologyViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ManufacturerViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NonGovernmentOrganizationViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\OthersViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ServicesViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SystemIntegratorViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TelecommunicationsSolutionsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\OpenOpportunitiesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AdvertisingAgencyServicesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AgriculturalChemicalsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AgriculturalMachineryAndEquViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AgriculturalProductsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AirconditioningAndAirconditiViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AirconditioningMaintenanceSeViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AircraftSparePartsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AmmunitionsAndExplosivesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AnimalFeedsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppliancesViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\RecentAwardViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AdvertisingAgencyServices1ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AgriculturalChemicals1ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AgriculturalMachineryAndEqu1ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AgriculturalProducts1ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AirconditioningAndAirconditi1ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AirconditioningMaintenanceSe1ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AircraftSpareParts1ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AmmunitionsAndExplosives1ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AnimalFeeds1ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Appliances1ViewModel.cs" />
         <PRIResource Include="$(MSBuildThisFileDirectory)Strings\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
@@ -68,46 +76,70 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\SupplierOrganizationDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\OpenOpportunitiesDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\TradingDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AdvertisingAgencyServicesDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\ConsultancyDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AgriculturalChemicalsDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\DistributorDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AgriculturalMachineryAndEquDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\ExecutiveSoleDistributorDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AgriculturalProductsDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\GeneralContractorDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AirconditioningAndAirconditiDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\GeneralMerchandiseDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AirconditioningMaintenanceSeDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\InformationTechnologyDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AircraftSparePartsDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\ManufacturerDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AmmunitionsAndExplosivesDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\NonGovernmentOrganizationDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AnimalFeedsDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\OthersDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AppliancesDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\ServicesDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\RecentAwardDataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\SystemIntegratorDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AdvertisingAgencyServices1DataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\TelecommunicationsSolutionsDataSource.json">
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AgriculturalChemicals1DataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AgriculturalMachineryAndEqu1DataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AgriculturalProducts1DataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AirconditioningAndAirconditi1DataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AirconditioningMaintenanceSe1DataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AircraftSpareParts1DataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AmmunitionsAndExplosives1DataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\AnimalFeeds1DataSource.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\Appliances1DataSource.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

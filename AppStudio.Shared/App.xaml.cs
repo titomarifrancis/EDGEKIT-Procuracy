@@ -26,7 +26,7 @@ namespace AppStudio
     /// </summary>
     public sealed partial class App : Application
     {
-        public const string APP_NAME = "PhilGEPS";
+        public const string APP_NAME = "Procuracy";
 
 #if WINDOWS_PHONE_APP
         private TransitionCollection transitions;

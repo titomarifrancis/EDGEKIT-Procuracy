@@ -18,9 +18,12 @@
       </TransitionCollection>
     </Grid.ChildrenTransitions>
     <Hub x:ConnectionId='1' x:Name="Container" Grid.Row="1" Background="{StaticResource AppBackground}" DataContext="{Binding}" HeaderTemplate="{StaticResource PageHeaderMargin}"                                                >
-      <HubSection HeaderTemplate="{StaticResource HubHeader}" Width="360" Header="Supplier Organization" DataContext="{Binding MainViewModel.SupplierOrganizationModel}" 
-                  d:DataContext="{d:DesignData Source=/Assets/Data/SupplierOrganizationDataSource.json, Type=vm:SupplierOrganizationViewModel, IsDesignTimeCreatable=true}"
-                  ContentTemplate="{StaticResource SupplierOrganizationList}" IsHeaderInteractive="{Binding HasMoreItems}" />
+      <HubSection HeaderTemplate="{StaticResource HubHeader}" Width="360" Header="Open Opportunities" DataContext="{Binding MainViewModel.OpenOpportunitiesModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/OpenOpportunitiesDataSource.json, Type=vm:OpenOpportunitiesViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource OpenOpportunitiesList}" IsHeaderInteractive="{Binding HasMoreItems}" />
+      <HubSection HeaderTemplate="{StaticResource HubHeader}" Width="360" Header="Recent Award" DataContext="{Binding MainViewModel.RecentAwardModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/RecentAwardDataSource.json, Type=vm:RecentAwardViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource RecentAwardList}" IsHeaderInteractive="{Binding HasMoreItems}" />
     </Hub>
   </Grid>
 

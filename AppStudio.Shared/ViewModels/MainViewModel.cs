@@ -12,26 +12,33 @@ namespace AppStudio.ViewModels
 {
     public class MainViewModel : BindableBase
     {
-       private SupplierOrganizationViewModel _supplierOrganizationModel;
+       private OpenOpportunitiesViewModel _openOpportunitiesModel;
+       private RecentAwardViewModel _recentAwardModel;
         private PrivacyViewModel _privacyModel;
 
         private ViewModelBase _selectedItem = null;
 
         public MainViewModel()
         {
-            _selectedItem = SupplierOrganizationModel;
+            _selectedItem = OpenOpportunitiesModel;
             _privacyModel = new PrivacyViewModel();
 
         }
  
-        public SupplierOrganizationViewModel SupplierOrganizationModel
+        public OpenOpportunitiesViewModel OpenOpportunitiesModel
         {
-            get { return _supplierOrganizationModel ?? (_supplierOrganizationModel = new SupplierOrganizationViewModel()); }
+            get { return _openOpportunitiesModel ?? (_openOpportunitiesModel = new OpenOpportunitiesViewModel()); }
+        }
+ 
+        public RecentAwardViewModel RecentAwardModel
+        {
+            get { return _recentAwardModel ?? (_recentAwardModel = new RecentAwardViewModel()); }
         }
 
         public void SetViewType(ViewTypes viewType)
         {
-            SupplierOrganizationModel.ViewType = viewType;
+            OpenOpportunitiesModel.ViewType = viewType;
+            RecentAwardModel.ViewType = viewType;
         }
 
         public ViewModelBase SelectedItem
@@ -71,7 +78,8 @@ namespace AppStudio.ViewModels
         {
             var loadTasks = new Task[]
             { 
-                SupplierOrganizationModel.LoadItemsAsync(forceRefresh),
+                OpenOpportunitiesModel.LoadItemsAsync(forceRefresh),
+                RecentAwardModel.LoadItemsAsync(forceRefresh),
             };
             await Task.WhenAll(loadTasks);
         }

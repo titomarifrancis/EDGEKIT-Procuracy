@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{521f8dac-8545-4644-bee6-5bae5d544c20}</ProjectGuid>
+    <ProjectGuid>{c464cd3b-92c1-46c2-873b-df4def7402bd}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AppStudio.Data</RootNamespace>
@@ -53,36 +53,51 @@
     <Compile Include="DataProviders\StaticDataProvider.cs" />
     <Compile Include="DataSources\DataSourceContent.cs" />
     <Compile Include="DataSources\DataSourceBase.cs" />
-    <Compile Include="DataSources\SupplierOrganizationDataSource.cs" />
-    <Compile Include="DataSources\TradingDataSource.cs" />
-    <Compile Include="DataSources\ConsultancyDataSource.cs" />
-    <Compile Include="DataSources\DistributorDataSource.cs" />
-    <Compile Include="DataSources\ExecutiveSoleDistributorDataSource.cs" />
-    <Compile Include="DataSources\GeneralContractorDataSource.cs" />
-    <Compile Include="DataSources\GeneralMerchandiseDataSource.cs" />
-    <Compile Include="DataSources\InformationTechnologyDataSource.cs" />
-    <Compile Include="DataSources\ManufacturerDataSource.cs" />
-    <Compile Include="DataSources\NonGovernmentOrganizationDataSource.cs" />
-    <Compile Include="DataSources\OthersDataSource.cs" />
-    <Compile Include="DataSources\ServicesDataSource.cs" />
-    <Compile Include="DataSources\SystemIntegratorDataSource.cs" />
-    <Compile Include="DataSources\TelecommunicationsSolutionsDataSource.cs" />
+    <Compile Include="DataSources\OpenOpportunitiesDataSource.cs" />
+    <Compile Include="DataSources\AdvertisingAgencyServicesDataSource.cs" />
+    <Compile Include="DataSources\AgriculturalChemicalsDataSource.cs" />
+    <Compile Include="DataSources\AgriculturalMachineryAndEquDataSource.cs" />
+    <Compile Include="DataSources\AgriculturalProductsDataSource.cs" />
+    <Compile Include="DataSources\AirconditioningAndAirconditiDataSource.cs" />
+    <Compile Include="DataSources\AirconditioningMaintenanceSeDataSource.cs" />
+    <Compile Include="DataSources\AircraftSparePartsDataSource.cs" />
+    <Compile Include="DataSources\AmmunitionsAndExplosivesDataSource.cs" />
+    <Compile Include="DataSources\AnimalFeedsDataSource.cs" />
+    <Compile Include="DataSources\AppliancesDataSource.cs" />
+    <Compile Include="DataSources\RecentAwardDataSource.cs" />
+    <Compile Include="DataSources\AdvertisingAgencyServices1DataSource.cs" />
+    <Compile Include="DataSources\AgriculturalChemicals1DataSource.cs" />
+    <Compile Include="DataSources\AgriculturalMachineryAndEqu1DataSource.cs" />
+    <Compile Include="DataSources\AgriculturalProducts1DataSource.cs" />
+    <Compile Include="DataSources\AirconditioningAndAirconditi1DataSource.cs" />
+    <Compile Include="DataSources\AirconditioningMaintenanceSe1DataSource.cs" />
+    <Compile Include="DataSources\AircraftSpareParts1DataSource.cs" />
+    <Compile Include="DataSources\AmmunitionsAndExplosives1DataSource.cs" />
+    <Compile Include="DataSources\AnimalFeeds1DataSource.cs" />
+    <Compile Include="DataSources\Appliances1DataSource.cs" />
     <Compile Include="Tiles\TileServices.cs" />
     <Compile Include="DataSchemas\RssSchema.cs" />
     <Compile Include="DataSchemas\MenuSchema.cs" />
-    <Compile Include="DataSchemas\TradingSchema.cs" />
-    <Compile Include="DataSchemas\ConsultancySchema.cs" />
-    <Compile Include="DataSchemas\DistributorSchema.cs" />
-    <Compile Include="DataSchemas\ExecutiveSoleDistributorSchema.cs" />
-    <Compile Include="DataSchemas\GeneralContractorSchema.cs" />
-    <Compile Include="DataSchemas\GeneralMerchandiseSchema.cs" />
-    <Compile Include="DataSchemas\InformationTechnologySchema.cs" />
-    <Compile Include="DataSchemas\ManufacturerSchema.cs" />
-    <Compile Include="DataSchemas\NonGovernmentOrganizationSchema.cs" />
-    <Compile Include="DataSchemas\OthersSchema.cs" />
-    <Compile Include="DataSchemas\ServicesSchema.cs" />
-    <Compile Include="DataSchemas\SystemIntegratorSchema.cs" />
-    <Compile Include="DataSchemas\TelecommunicationsSolutionsSchema.cs" />
+    <Compile Include="DataSchemas\AdvertisingAgencyServicesSchema.cs" />
+    <Compile Include="DataSchemas\AgriculturalChemicalsSchema.cs" />
+    <Compile Include="DataSchemas\AgriculturalMachineryAndEquSchema.cs" />
+    <Compile Include="DataSchemas\AgriculturalProductsSchema.cs" />
+    <Compile Include="DataSchemas\AirconditioningAndAirconditiSchema.cs" />
+    <Compile Include="DataSchemas\AirconditioningMaintenanceSeSchema.cs" />
+    <Compile Include="DataSchemas\AircraftSparePartsSchema.cs" />
+    <Compile Include="DataSchemas\AmmunitionsAndExplosivesSchema.cs" />
+    <Compile Include="DataSchemas\AnimalFeedsSchema.cs" />
+    <Compile Include="DataSchemas\AppliancesSchema.cs" />
+    <Compile Include="DataSchemas\AdvertisingAgencyServices1Schema.cs" />
+    <Compile Include="DataSchemas\AgriculturalChemicals1Schema.cs" />
+    <Compile Include="DataSchemas\AgriculturalMachineryAndEqu1Schema.cs" />
+    <Compile Include="DataSchemas\AgriculturalProducts1Schema.cs" />
+    <Compile Include="DataSchemas\AirconditioningAndAirconditi1Schema.cs" />
+    <Compile Include="DataSchemas\AirconditioningMaintenanceSe1Schema.cs" />
+    <Compile Include="DataSchemas\AircraftSpareParts1Schema.cs" />
+    <Compile Include="DataSchemas\AmmunitionsAndExplosives1Schema.cs" />
+    <Compile Include="DataSchemas\AnimalFeeds1Schema.cs" />
+    <Compile Include="DataSchemas\Appliances1Schema.cs" />
   </ItemGroup>
   <ItemGroup>
 </ItemGroup>

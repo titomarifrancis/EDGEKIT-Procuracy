@@ -148,7 +148,7 @@ namespace AppStudio.AppStudio_WindowsPhone_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[75];
+            _typeNameTable = new string[103];
             _typeNameTable[0] = "AppStudio.Controls.Html2Xaml.Properties";
             _typeNameTable[1] = "Windows.UI.Xaml.DependencyObject";
             _typeNameTable[2] = "String";
@@ -171,61 +171,89 @@ namespace AppStudio.AppStudio_WindowsPhone_XamlTypeInfo
             _typeNameTable[19] = "AppStudio.Views.MainPage";
             _typeNameTable[20] = "AppStudio.ViewModels.MainViewModel";
             _typeNameTable[21] = "AppStudio.Data.BindableBase";
-            _typeNameTable[22] = "AppStudio.Views.TradingPage";
-            _typeNameTable[23] = "AppStudio.ViewModels.TradingViewModel";
-            _typeNameTable[24] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.TradingSchema>";
+            _typeNameTable[22] = "AppStudio.Views.AdvertisingAgencyServicesPage";
+            _typeNameTable[23] = "AppStudio.ViewModels.AdvertisingAgencyServicesViewModel";
+            _typeNameTable[24] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AdvertisingAgencyServicesSchema>";
             _typeNameTable[25] = "AppStudio.ViewModels.ViewModelBase";
-            _typeNameTable[26] = "AppStudio.Views.ConsultancyPage";
-            _typeNameTable[27] = "AppStudio.ViewModels.ConsultancyViewModel";
-            _typeNameTable[28] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ConsultancySchema>";
-            _typeNameTable[29] = "AppStudio.Views.DistributorPage";
-            _typeNameTable[30] = "AppStudio.ViewModels.DistributorViewModel";
-            _typeNameTable[31] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.DistributorSchema>";
-            _typeNameTable[32] = "AppStudio.Views.ExecutiveSoleDistributorPage";
-            _typeNameTable[33] = "AppStudio.ViewModels.ExecutiveSoleDistributorViewModel";
-            _typeNameTable[34] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ExecutiveSoleDistributorSchema>";
-            _typeNameTable[35] = "AppStudio.Views.GeneralContractorPage";
-            _typeNameTable[36] = "AppStudio.ViewModels.GeneralContractorViewModel";
-            _typeNameTable[37] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.GeneralContractorSchema>";
-            _typeNameTable[38] = "AppStudio.Views.GeneralMerchandisePage";
-            _typeNameTable[39] = "AppStudio.ViewModels.GeneralMerchandiseViewModel";
-            _typeNameTable[40] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.GeneralMerchandiseSchema>";
-            _typeNameTable[41] = "AppStudio.Views.InformationTechnologyPage";
-            _typeNameTable[42] = "AppStudio.ViewModels.InformationTechnologyViewModel";
-            _typeNameTable[43] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.InformationTechnologySchema>";
-            _typeNameTable[44] = "AppStudio.Views.ManufacturerPage";
-            _typeNameTable[45] = "AppStudio.ViewModels.ManufacturerViewModel";
-            _typeNameTable[46] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ManufacturerSchema>";
-            _typeNameTable[47] = "AppStudio.Views.NonGovernmentOrganizationPage";
-            _typeNameTable[48] = "AppStudio.ViewModels.NonGovernmentOrganizationViewModel";
-            _typeNameTable[49] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.NonGovernmentOrganizationSchema>";
-            _typeNameTable[50] = "AppStudio.Views.OthersPage";
-            _typeNameTable[51] = "AppStudio.ViewModels.OthersViewModel";
-            _typeNameTable[52] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.OthersSchema>";
-            _typeNameTable[53] = "AppStudio.Views.ServicesPage";
-            _typeNameTable[54] = "AppStudio.ViewModels.ServicesViewModel";
-            _typeNameTable[55] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ServicesSchema>";
-            _typeNameTable[56] = "AppStudio.Views.SystemIntegratorPage";
-            _typeNameTable[57] = "AppStudio.ViewModels.SystemIntegratorViewModel";
-            _typeNameTable[58] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.SystemIntegratorSchema>";
-            _typeNameTable[59] = "AppStudio.Views.TelecommunicationsSolutionsPage";
-            _typeNameTable[60] = "AppStudio.ViewModels.TelecommunicationsSolutionsViewModel";
-            _typeNameTable[61] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.TelecommunicationsSolutionsSchema>";
-            _typeNameTable[62] = "AppStudio.Views.TradingDetail";
-            _typeNameTable[63] = "AppStudio.Views.ConsultancyDetail";
-            _typeNameTable[64] = "AppStudio.Views.DistributorDetail";
-            _typeNameTable[65] = "AppStudio.Views.ExecutiveSoleDistributorDetail";
-            _typeNameTable[66] = "AppStudio.Views.GeneralContractorDetail";
-            _typeNameTable[67] = "AppStudio.Views.GeneralMerchandiseDetail";
-            _typeNameTable[68] = "AppStudio.Views.InformationTechnologyDetail";
-            _typeNameTable[69] = "AppStudio.Views.ManufacturerDetail";
-            _typeNameTable[70] = "AppStudio.Views.NonGovernmentOrganizationDetail";
-            _typeNameTable[71] = "AppStudio.Views.OthersDetail";
-            _typeNameTable[72] = "AppStudio.Views.ServicesDetail";
-            _typeNameTable[73] = "AppStudio.Views.SystemIntegratorDetail";
-            _typeNameTable[74] = "AppStudio.Views.TelecommunicationsSolutionsDetail";
+            _typeNameTable[26] = "AppStudio.Views.AgriculturalChemicalsPage";
+            _typeNameTable[27] = "AppStudio.ViewModels.AgriculturalChemicalsViewModel";
+            _typeNameTable[28] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalChemicalsSchema>";
+            _typeNameTable[29] = "AppStudio.Views.AgriculturalMachineryAndEquPage";
+            _typeNameTable[30] = "AppStudio.ViewModels.AgriculturalMachineryAndEquViewModel";
+            _typeNameTable[31] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalMachineryAndEquSchema>";
+            _typeNameTable[32] = "AppStudio.Views.AgriculturalProductsPage";
+            _typeNameTable[33] = "AppStudio.ViewModels.AgriculturalProductsViewModel";
+            _typeNameTable[34] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalProductsSchema>";
+            _typeNameTable[35] = "AppStudio.Views.AirconditioningAndAirconditiPage";
+            _typeNameTable[36] = "AppStudio.ViewModels.AirconditioningAndAirconditiViewModel";
+            _typeNameTable[37] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningAndAirconditiSchema>";
+            _typeNameTable[38] = "AppStudio.Views.AirconditioningMaintenanceSePage";
+            _typeNameTable[39] = "AppStudio.ViewModels.AirconditioningMaintenanceSeViewModel";
+            _typeNameTable[40] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningMaintenanceSeSchema>";
+            _typeNameTable[41] = "AppStudio.Views.AircraftSparePartsPage";
+            _typeNameTable[42] = "AppStudio.ViewModels.AircraftSparePartsViewModel";
+            _typeNameTable[43] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AircraftSparePartsSchema>";
+            _typeNameTable[44] = "AppStudio.Views.AmmunitionsAndExplosivesPage";
+            _typeNameTable[45] = "AppStudio.ViewModels.AmmunitionsAndExplosivesViewModel";
+            _typeNameTable[46] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AmmunitionsAndExplosivesSchema>";
+            _typeNameTable[47] = "AppStudio.Views.AnimalFeedsPage";
+            _typeNameTable[48] = "AppStudio.ViewModels.AnimalFeedsViewModel";
+            _typeNameTable[49] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AnimalFeedsSchema>";
+            _typeNameTable[50] = "AppStudio.Views.AppliancesPage";
+            _typeNameTable[51] = "AppStudio.ViewModels.AppliancesViewModel";
+            _typeNameTable[52] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AppliancesSchema>";
+            _typeNameTable[53] = "AppStudio.Views.AdvertisingAgencyServices1Page";
+            _typeNameTable[54] = "AppStudio.ViewModels.AdvertisingAgencyServices1ViewModel";
+            _typeNameTable[55] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AdvertisingAgencyServices1Schema>";
+            _typeNameTable[56] = "AppStudio.Views.AgriculturalChemicals1Page";
+            _typeNameTable[57] = "AppStudio.ViewModels.AgriculturalChemicals1ViewModel";
+            _typeNameTable[58] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalChemicals1Schema>";
+            _typeNameTable[59] = "AppStudio.Views.AgriculturalMachineryAndEqu1Page";
+            _typeNameTable[60] = "AppStudio.ViewModels.AgriculturalMachineryAndEqu1ViewModel";
+            _typeNameTable[61] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalMachineryAndEqu1Schema>";
+            _typeNameTable[62] = "AppStudio.Views.AgriculturalProducts1Page";
+            _typeNameTable[63] = "AppStudio.ViewModels.AgriculturalProducts1ViewModel";
+            _typeNameTable[64] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalProducts1Schema>";
+            _typeNameTable[65] = "AppStudio.Views.AirconditioningAndAirconditi1Page";
+            _typeNameTable[66] = "AppStudio.ViewModels.AirconditioningAndAirconditi1ViewModel";
+            _typeNameTable[67] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningAndAirconditi1Schema>";
+            _typeNameTable[68] = "AppStudio.Views.AirconditioningMaintenanceSe1Page";
+            _typeNameTable[69] = "AppStudio.ViewModels.AirconditioningMaintenanceSe1ViewModel";
+            _typeNameTable[70] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningMaintenanceSe1Schema>";
+            _typeNameTable[71] = "AppStudio.Views.AircraftSpareParts1Page";
+            _typeNameTable[72] = "AppStudio.ViewModels.AircraftSpareParts1ViewModel";
+            _typeNameTable[73] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AircraftSpareParts1Schema>";
+            _typeNameTable[74] = "AppStudio.Views.AmmunitionsAndExplosives1Page";
+            _typeNameTable[75] = "AppStudio.ViewModels.AmmunitionsAndExplosives1ViewModel";
+            _typeNameTable[76] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AmmunitionsAndExplosives1Schema>";
+            _typeNameTable[77] = "AppStudio.Views.AnimalFeeds1Page";
+            _typeNameTable[78] = "AppStudio.ViewModels.AnimalFeeds1ViewModel";
+            _typeNameTable[79] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AnimalFeeds1Schema>";
+            _typeNameTable[80] = "AppStudio.Views.Appliances1Page";
+            _typeNameTable[81] = "AppStudio.ViewModels.Appliances1ViewModel";
+            _typeNameTable[82] = "AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.Appliances1Schema>";
+            _typeNameTable[83] = "AppStudio.Views.AdvertisingAgencyServicesDetail";
+            _typeNameTable[84] = "AppStudio.Views.AgriculturalChemicalsDetail";
+            _typeNameTable[85] = "AppStudio.Views.AgriculturalMachineryAndEquDetail";
+            _typeNameTable[86] = "AppStudio.Views.AgriculturalProductsDetail";
+            _typeNameTable[87] = "AppStudio.Views.AirconditioningAndAirconditiDetail";
+            _typeNameTable[88] = "AppStudio.Views.AirconditioningMaintenanceSeDetail";
+            _typeNameTable[89] = "AppStudio.Views.AircraftSparePartsDetail";
+            _typeNameTable[90] = "AppStudio.Views.AmmunitionsAndExplosivesDetail";
+            _typeNameTable[91] = "AppStudio.Views.AnimalFeedsDetail";
+            _typeNameTable[92] = "AppStudio.Views.AppliancesDetail";
+            _typeNameTable[93] = "AppStudio.Views.AdvertisingAgencyServices1Detail";
+            _typeNameTable[94] = "AppStudio.Views.AgriculturalChemicals1Detail";
+            _typeNameTable[95] = "AppStudio.Views.AgriculturalMachineryAndEqu1Detail";
+            _typeNameTable[96] = "AppStudio.Views.AgriculturalProducts1Detail";
+            _typeNameTable[97] = "AppStudio.Views.AirconditioningAndAirconditi1Detail";
+            _typeNameTable[98] = "AppStudio.Views.AirconditioningMaintenanceSe1Detail";
+            _typeNameTable[99] = "AppStudio.Views.AircraftSpareParts1Detail";
+            _typeNameTable[100] = "AppStudio.Views.AmmunitionsAndExplosives1Detail";
+            _typeNameTable[101] = "AppStudio.Views.AnimalFeeds1Detail";
+            _typeNameTable[102] = "AppStudio.Views.Appliances1Detail";
 
-            _typeTable = new global::System.Type[75];
+            _typeTable = new global::System.Type[103];
             _typeTable[0] = typeof(global::AppStudio.Controls.Html2Xaml.Properties);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.DependencyObject);
             _typeTable[2] = typeof(global::System.String);
@@ -248,59 +276,87 @@ namespace AppStudio.AppStudio_WindowsPhone_XamlTypeInfo
             _typeTable[19] = typeof(global::AppStudio.Views.MainPage);
             _typeTable[20] = typeof(global::AppStudio.ViewModels.MainViewModel);
             _typeTable[21] = typeof(global::AppStudio.Data.BindableBase);
-            _typeTable[22] = typeof(global::AppStudio.Views.TradingPage);
-            _typeTable[23] = typeof(global::AppStudio.ViewModels.TradingViewModel);
-            _typeTable[24] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.TradingSchema>);
+            _typeTable[22] = typeof(global::AppStudio.Views.AdvertisingAgencyServicesPage);
+            _typeTable[23] = typeof(global::AppStudio.ViewModels.AdvertisingAgencyServicesViewModel);
+            _typeTable[24] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AdvertisingAgencyServicesSchema>);
             _typeTable[25] = typeof(global::AppStudio.ViewModels.ViewModelBase);
-            _typeTable[26] = typeof(global::AppStudio.Views.ConsultancyPage);
-            _typeTable[27] = typeof(global::AppStudio.ViewModels.ConsultancyViewModel);
-            _typeTable[28] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.ConsultancySchema>);
-            _typeTable[29] = typeof(global::AppStudio.Views.DistributorPage);
-            _typeTable[30] = typeof(global::AppStudio.ViewModels.DistributorViewModel);
-            _typeTable[31] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.DistributorSchema>);
-            _typeTable[32] = typeof(global::AppStudio.Views.ExecutiveSoleDistributorPage);
-            _typeTable[33] = typeof(global::AppStudio.ViewModels.ExecutiveSoleDistributorViewModel);
-            _typeTable[34] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.ExecutiveSoleDistributorSchema>);
-            _typeTable[35] = typeof(global::AppStudio.Views.GeneralContractorPage);
-            _typeTable[36] = typeof(global::AppStudio.ViewModels.GeneralContractorViewModel);
-            _typeTable[37] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.GeneralContractorSchema>);
-            _typeTable[38] = typeof(global::AppStudio.Views.GeneralMerchandisePage);
-            _typeTable[39] = typeof(global::AppStudio.ViewModels.GeneralMerchandiseViewModel);
-            _typeTable[40] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.GeneralMerchandiseSchema>);
-            _typeTable[41] = typeof(global::AppStudio.Views.InformationTechnologyPage);
-            _typeTable[42] = typeof(global::AppStudio.ViewModels.InformationTechnologyViewModel);
-            _typeTable[43] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.InformationTechnologySchema>);
-            _typeTable[44] = typeof(global::AppStudio.Views.ManufacturerPage);
-            _typeTable[45] = typeof(global::AppStudio.ViewModels.ManufacturerViewModel);
-            _typeTable[46] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.ManufacturerSchema>);
-            _typeTable[47] = typeof(global::AppStudio.Views.NonGovernmentOrganizationPage);
-            _typeTable[48] = typeof(global::AppStudio.ViewModels.NonGovernmentOrganizationViewModel);
-            _typeTable[49] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.NonGovernmentOrganizationSchema>);
-            _typeTable[50] = typeof(global::AppStudio.Views.OthersPage);
-            _typeTable[51] = typeof(global::AppStudio.ViewModels.OthersViewModel);
-            _typeTable[52] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.OthersSchema>);
-            _typeTable[53] = typeof(global::AppStudio.Views.ServicesPage);
-            _typeTable[54] = typeof(global::AppStudio.ViewModels.ServicesViewModel);
-            _typeTable[55] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.ServicesSchema>);
-            _typeTable[56] = typeof(global::AppStudio.Views.SystemIntegratorPage);
-            _typeTable[57] = typeof(global::AppStudio.ViewModels.SystemIntegratorViewModel);
-            _typeTable[58] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.SystemIntegratorSchema>);
-            _typeTable[59] = typeof(global::AppStudio.Views.TelecommunicationsSolutionsPage);
-            _typeTable[60] = typeof(global::AppStudio.ViewModels.TelecommunicationsSolutionsViewModel);
-            _typeTable[61] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.TelecommunicationsSolutionsSchema>);
-            _typeTable[62] = typeof(global::AppStudio.Views.TradingDetail);
-            _typeTable[63] = typeof(global::AppStudio.Views.ConsultancyDetail);
-            _typeTable[64] = typeof(global::AppStudio.Views.DistributorDetail);
-            _typeTable[65] = typeof(global::AppStudio.Views.ExecutiveSoleDistributorDetail);
-            _typeTable[66] = typeof(global::AppStudio.Views.GeneralContractorDetail);
-            _typeTable[67] = typeof(global::AppStudio.Views.GeneralMerchandiseDetail);
-            _typeTable[68] = typeof(global::AppStudio.Views.InformationTechnologyDetail);
-            _typeTable[69] = typeof(global::AppStudio.Views.ManufacturerDetail);
-            _typeTable[70] = typeof(global::AppStudio.Views.NonGovernmentOrganizationDetail);
-            _typeTable[71] = typeof(global::AppStudio.Views.OthersDetail);
-            _typeTable[72] = typeof(global::AppStudio.Views.ServicesDetail);
-            _typeTable[73] = typeof(global::AppStudio.Views.SystemIntegratorDetail);
-            _typeTable[74] = typeof(global::AppStudio.Views.TelecommunicationsSolutionsDetail);
+            _typeTable[26] = typeof(global::AppStudio.Views.AgriculturalChemicalsPage);
+            _typeTable[27] = typeof(global::AppStudio.ViewModels.AgriculturalChemicalsViewModel);
+            _typeTable[28] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AgriculturalChemicalsSchema>);
+            _typeTable[29] = typeof(global::AppStudio.Views.AgriculturalMachineryAndEquPage);
+            _typeTable[30] = typeof(global::AppStudio.ViewModels.AgriculturalMachineryAndEquViewModel);
+            _typeTable[31] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AgriculturalMachineryAndEquSchema>);
+            _typeTable[32] = typeof(global::AppStudio.Views.AgriculturalProductsPage);
+            _typeTable[33] = typeof(global::AppStudio.ViewModels.AgriculturalProductsViewModel);
+            _typeTable[34] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AgriculturalProductsSchema>);
+            _typeTable[35] = typeof(global::AppStudio.Views.AirconditioningAndAirconditiPage);
+            _typeTable[36] = typeof(global::AppStudio.ViewModels.AirconditioningAndAirconditiViewModel);
+            _typeTable[37] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AirconditioningAndAirconditiSchema>);
+            _typeTable[38] = typeof(global::AppStudio.Views.AirconditioningMaintenanceSePage);
+            _typeTable[39] = typeof(global::AppStudio.ViewModels.AirconditioningMaintenanceSeViewModel);
+            _typeTable[40] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AirconditioningMaintenanceSeSchema>);
+            _typeTable[41] = typeof(global::AppStudio.Views.AircraftSparePartsPage);
+            _typeTable[42] = typeof(global::AppStudio.ViewModels.AircraftSparePartsViewModel);
+            _typeTable[43] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AircraftSparePartsSchema>);
+            _typeTable[44] = typeof(global::AppStudio.Views.AmmunitionsAndExplosivesPage);
+            _typeTable[45] = typeof(global::AppStudio.ViewModels.AmmunitionsAndExplosivesViewModel);
+            _typeTable[46] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AmmunitionsAndExplosivesSchema>);
+            _typeTable[47] = typeof(global::AppStudio.Views.AnimalFeedsPage);
+            _typeTable[48] = typeof(global::AppStudio.ViewModels.AnimalFeedsViewModel);
+            _typeTable[49] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AnimalFeedsSchema>);
+            _typeTable[50] = typeof(global::AppStudio.Views.AppliancesPage);
+            _typeTable[51] = typeof(global::AppStudio.ViewModels.AppliancesViewModel);
+            _typeTable[52] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AppliancesSchema>);
+            _typeTable[53] = typeof(global::AppStudio.Views.AdvertisingAgencyServices1Page);
+            _typeTable[54] = typeof(global::AppStudio.ViewModels.AdvertisingAgencyServices1ViewModel);
+            _typeTable[55] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AdvertisingAgencyServices1Schema>);
+            _typeTable[56] = typeof(global::AppStudio.Views.AgriculturalChemicals1Page);
+            _typeTable[57] = typeof(global::AppStudio.ViewModels.AgriculturalChemicals1ViewModel);
+            _typeTable[58] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AgriculturalChemicals1Schema>);
+            _typeTable[59] = typeof(global::AppStudio.Views.AgriculturalMachineryAndEqu1Page);
+            _typeTable[60] = typeof(global::AppStudio.ViewModels.AgriculturalMachineryAndEqu1ViewModel);
+            _typeTable[61] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AgriculturalMachineryAndEqu1Schema>);
+            _typeTable[62] = typeof(global::AppStudio.Views.AgriculturalProducts1Page);
+            _typeTable[63] = typeof(global::AppStudio.ViewModels.AgriculturalProducts1ViewModel);
+            _typeTable[64] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AgriculturalProducts1Schema>);
+            _typeTable[65] = typeof(global::AppStudio.Views.AirconditioningAndAirconditi1Page);
+            _typeTable[66] = typeof(global::AppStudio.ViewModels.AirconditioningAndAirconditi1ViewModel);
+            _typeTable[67] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AirconditioningAndAirconditi1Schema>);
+            _typeTable[68] = typeof(global::AppStudio.Views.AirconditioningMaintenanceSe1Page);
+            _typeTable[69] = typeof(global::AppStudio.ViewModels.AirconditioningMaintenanceSe1ViewModel);
+            _typeTable[70] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AirconditioningMaintenanceSe1Schema>);
+            _typeTable[71] = typeof(global::AppStudio.Views.AircraftSpareParts1Page);
+            _typeTable[72] = typeof(global::AppStudio.ViewModels.AircraftSpareParts1ViewModel);
+            _typeTable[73] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AircraftSpareParts1Schema>);
+            _typeTable[74] = typeof(global::AppStudio.Views.AmmunitionsAndExplosives1Page);
+            _typeTable[75] = typeof(global::AppStudio.ViewModels.AmmunitionsAndExplosives1ViewModel);
+            _typeTable[76] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AmmunitionsAndExplosives1Schema>);
+            _typeTable[77] = typeof(global::AppStudio.Views.AnimalFeeds1Page);
+            _typeTable[78] = typeof(global::AppStudio.ViewModels.AnimalFeeds1ViewModel);
+            _typeTable[79] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.AnimalFeeds1Schema>);
+            _typeTable[80] = typeof(global::AppStudio.Views.Appliances1Page);
+            _typeTable[81] = typeof(global::AppStudio.ViewModels.Appliances1ViewModel);
+            _typeTable[82] = typeof(global::AppStudio.ViewModels.ViewModelBase<global::AppStudio.Data.Appliances1Schema>);
+            _typeTable[83] = typeof(global::AppStudio.Views.AdvertisingAgencyServicesDetail);
+            _typeTable[84] = typeof(global::AppStudio.Views.AgriculturalChemicalsDetail);
+            _typeTable[85] = typeof(global::AppStudio.Views.AgriculturalMachineryAndEquDetail);
+            _typeTable[86] = typeof(global::AppStudio.Views.AgriculturalProductsDetail);
+            _typeTable[87] = typeof(global::AppStudio.Views.AirconditioningAndAirconditiDetail);
+            _typeTable[88] = typeof(global::AppStudio.Views.AirconditioningMaintenanceSeDetail);
+            _typeTable[89] = typeof(global::AppStudio.Views.AircraftSparePartsDetail);
+            _typeTable[90] = typeof(global::AppStudio.Views.AmmunitionsAndExplosivesDetail);
+            _typeTable[91] = typeof(global::AppStudio.Views.AnimalFeedsDetail);
+            _typeTable[92] = typeof(global::AppStudio.Views.AppliancesDetail);
+            _typeTable[93] = typeof(global::AppStudio.Views.AdvertisingAgencyServices1Detail);
+            _typeTable[94] = typeof(global::AppStudio.Views.AgriculturalChemicals1Detail);
+            _typeTable[95] = typeof(global::AppStudio.Views.AgriculturalMachineryAndEqu1Detail);
+            _typeTable[96] = typeof(global::AppStudio.Views.AgriculturalProducts1Detail);
+            _typeTable[97] = typeof(global::AppStudio.Views.AirconditioningAndAirconditi1Detail);
+            _typeTable[98] = typeof(global::AppStudio.Views.AirconditioningMaintenanceSe1Detail);
+            _typeTable[99] = typeof(global::AppStudio.Views.AircraftSpareParts1Detail);
+            _typeTable[100] = typeof(global::AppStudio.Views.AmmunitionsAndExplosives1Detail);
+            _typeTable[101] = typeof(global::AppStudio.Views.AnimalFeeds1Detail);
+            _typeTable[102] = typeof(global::AppStudio.Views.Appliances1Detail);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -347,45 +403,66 @@ namespace AppStudio.AppStudio_WindowsPhone_XamlTypeInfo
         private object Activate_15_ImageViewer() { return new global::AppStudio.Views.ImageViewer(); }
         private object Activate_19_MainPage() { return new global::AppStudio.Views.MainPage(); }
         private object Activate_20_MainViewModel() { return new global::AppStudio.ViewModels.MainViewModel(); }
-        private object Activate_22_TradingPage() { return new global::AppStudio.Views.TradingPage(); }
-        private object Activate_23_TradingViewModel() { return new global::AppStudio.ViewModels.TradingViewModel(); }
-        private object Activate_26_ConsultancyPage() { return new global::AppStudio.Views.ConsultancyPage(); }
-        private object Activate_27_ConsultancyViewModel() { return new global::AppStudio.ViewModels.ConsultancyViewModel(); }
-        private object Activate_29_DistributorPage() { return new global::AppStudio.Views.DistributorPage(); }
-        private object Activate_30_DistributorViewModel() { return new global::AppStudio.ViewModels.DistributorViewModel(); }
-        private object Activate_32_ExecutiveSoleDistributorPage() { return new global::AppStudio.Views.ExecutiveSoleDistributorPage(); }
-        private object Activate_33_ExecutiveSoleDistributorViewModel() { return new global::AppStudio.ViewModels.ExecutiveSoleDistributorViewModel(); }
-        private object Activate_35_GeneralContractorPage() { return new global::AppStudio.Views.GeneralContractorPage(); }
-        private object Activate_36_GeneralContractorViewModel() { return new global::AppStudio.ViewModels.GeneralContractorViewModel(); }
-        private object Activate_38_GeneralMerchandisePage() { return new global::AppStudio.Views.GeneralMerchandisePage(); }
-        private object Activate_39_GeneralMerchandiseViewModel() { return new global::AppStudio.ViewModels.GeneralMerchandiseViewModel(); }
-        private object Activate_41_InformationTechnologyPage() { return new global::AppStudio.Views.InformationTechnologyPage(); }
-        private object Activate_42_InformationTechnologyViewModel() { return new global::AppStudio.ViewModels.InformationTechnologyViewModel(); }
-        private object Activate_44_ManufacturerPage() { return new global::AppStudio.Views.ManufacturerPage(); }
-        private object Activate_45_ManufacturerViewModel() { return new global::AppStudio.ViewModels.ManufacturerViewModel(); }
-        private object Activate_47_NonGovernmentOrganizationPage() { return new global::AppStudio.Views.NonGovernmentOrganizationPage(); }
-        private object Activate_48_NonGovernmentOrganizationViewModel() { return new global::AppStudio.ViewModels.NonGovernmentOrganizationViewModel(); }
-        private object Activate_50_OthersPage() { return new global::AppStudio.Views.OthersPage(); }
-        private object Activate_51_OthersViewModel() { return new global::AppStudio.ViewModels.OthersViewModel(); }
-        private object Activate_53_ServicesPage() { return new global::AppStudio.Views.ServicesPage(); }
-        private object Activate_54_ServicesViewModel() { return new global::AppStudio.ViewModels.ServicesViewModel(); }
-        private object Activate_56_SystemIntegratorPage() { return new global::AppStudio.Views.SystemIntegratorPage(); }
-        private object Activate_57_SystemIntegratorViewModel() { return new global::AppStudio.ViewModels.SystemIntegratorViewModel(); }
-        private object Activate_59_TelecommunicationsSolutionsPage() { return new global::AppStudio.Views.TelecommunicationsSolutionsPage(); }
-        private object Activate_60_TelecommunicationsSolutionsViewModel() { return new global::AppStudio.ViewModels.TelecommunicationsSolutionsViewModel(); }
-        private object Activate_62_TradingDetail() { return new global::AppStudio.Views.TradingDetail(); }
-        private object Activate_63_ConsultancyDetail() { return new global::AppStudio.Views.ConsultancyDetail(); }
-        private object Activate_64_DistributorDetail() { return new global::AppStudio.Views.DistributorDetail(); }
-        private object Activate_65_ExecutiveSoleDistributorDetail() { return new global::AppStudio.Views.ExecutiveSoleDistributorDetail(); }
-        private object Activate_66_GeneralContractorDetail() { return new global::AppStudio.Views.GeneralContractorDetail(); }
-        private object Activate_67_GeneralMerchandiseDetail() { return new global::AppStudio.Views.GeneralMerchandiseDetail(); }
-        private object Activate_68_InformationTechnologyDetail() { return new global::AppStudio.Views.InformationTechnologyDetail(); }
-        private object Activate_69_ManufacturerDetail() { return new global::AppStudio.Views.ManufacturerDetail(); }
-        private object Activate_70_NonGovernmentOrganizationDetail() { return new global::AppStudio.Views.NonGovernmentOrganizationDetail(); }
-        private object Activate_71_OthersDetail() { return new global::AppStudio.Views.OthersDetail(); }
-        private object Activate_72_ServicesDetail() { return new global::AppStudio.Views.ServicesDetail(); }
-        private object Activate_73_SystemIntegratorDetail() { return new global::AppStudio.Views.SystemIntegratorDetail(); }
-        private object Activate_74_TelecommunicationsSolutionsDetail() { return new global::AppStudio.Views.TelecommunicationsSolutionsDetail(); }
+        private object Activate_22_AdvertisingAgencyServicesPage() { return new global::AppStudio.Views.AdvertisingAgencyServicesPage(); }
+        private object Activate_23_AdvertisingAgencyServicesViewModel() { return new global::AppStudio.ViewModels.AdvertisingAgencyServicesViewModel(); }
+        private object Activate_26_AgriculturalChemicalsPage() { return new global::AppStudio.Views.AgriculturalChemicalsPage(); }
+        private object Activate_27_AgriculturalChemicalsViewModel() { return new global::AppStudio.ViewModels.AgriculturalChemicalsViewModel(); }
+        private object Activate_29_AgriculturalMachineryAndEquPage() { return new global::AppStudio.Views.AgriculturalMachineryAndEquPage(); }
+        private object Activate_30_AgriculturalMachineryAndEquViewModel() { return new global::AppStudio.ViewModels.AgriculturalMachineryAndEquViewModel(); }
+        private object Activate_32_AgriculturalProductsPage() { return new global::AppStudio.Views.AgriculturalProductsPage(); }
+        private object Activate_33_AgriculturalProductsViewModel() { return new global::AppStudio.ViewModels.AgriculturalProductsViewModel(); }
+        private object Activate_35_AirconditioningAndAirconditiPage() { return new global::AppStudio.Views.AirconditioningAndAirconditiPage(); }
+        private object Activate_36_AirconditioningAndAirconditiViewModel() { return new global::AppStudio.ViewModels.AirconditioningAndAirconditiViewModel(); }
+        private object Activate_38_AirconditioningMaintenanceSePage() { return new global::AppStudio.Views.AirconditioningMaintenanceSePage(); }
+        private object Activate_39_AirconditioningMaintenanceSeViewModel() { return new global::AppStudio.ViewModels.AirconditioningMaintenanceSeViewModel(); }
+        private object Activate_41_AircraftSparePartsPage() { return new global::AppStudio.Views.AircraftSparePartsPage(); }
+        private object Activate_42_AircraftSparePartsViewModel() { return new global::AppStudio.ViewModels.AircraftSparePartsViewModel(); }
+        private object Activate_44_AmmunitionsAndExplosivesPage() { return new global::AppStudio.Views.AmmunitionsAndExplosivesPage(); }
+        private object Activate_45_AmmunitionsAndExplosivesViewModel() { return new global::AppStudio.ViewModels.AmmunitionsAndExplosivesViewModel(); }
+        private object Activate_47_AnimalFeedsPage() { return new global::AppStudio.Views.AnimalFeedsPage(); }
+        private object Activate_48_AnimalFeedsViewModel() { return new global::AppStudio.ViewModels.AnimalFeedsViewModel(); }
+        private object Activate_50_AppliancesPage() { return new global::AppStudio.Views.AppliancesPage(); }
+        private object Activate_51_AppliancesViewModel() { return new global::AppStudio.ViewModels.AppliancesViewModel(); }
+        private object Activate_53_AdvertisingAgencyServices1Page() { return new global::AppStudio.Views.AdvertisingAgencyServices1Page(); }
+        private object Activate_54_AdvertisingAgencyServices1ViewModel() { return new global::AppStudio.ViewModels.AdvertisingAgencyServices1ViewModel(); }
+        private object Activate_56_AgriculturalChemicals1Page() { return new global::AppStudio.Views.AgriculturalChemicals1Page(); }
+        private object Activate_57_AgriculturalChemicals1ViewModel() { return new global::AppStudio.ViewModels.AgriculturalChemicals1ViewModel(); }
+        private object Activate_59_AgriculturalMachineryAndEqu1Page() { return new global::AppStudio.Views.AgriculturalMachineryAndEqu1Page(); }
+        private object Activate_60_AgriculturalMachineryAndEqu1ViewModel() { return new global::AppStudio.ViewModels.AgriculturalMachineryAndEqu1ViewModel(); }
+        private object Activate_62_AgriculturalProducts1Page() { return new global::AppStudio.Views.AgriculturalProducts1Page(); }
+        private object Activate_63_AgriculturalProducts1ViewModel() { return new global::AppStudio.ViewModels.AgriculturalProducts1ViewModel(); }
+        private object Activate_65_AirconditioningAndAirconditi1Page() { return new global::AppStudio.Views.AirconditioningAndAirconditi1Page(); }
+        private object Activate_66_AirconditioningAndAirconditi1ViewModel() { return new global::AppStudio.ViewModels.AirconditioningAndAirconditi1ViewModel(); }
+        private object Activate_68_AirconditioningMaintenanceSe1Page() { return new global::AppStudio.Views.AirconditioningMaintenanceSe1Page(); }
+        private object Activate_69_AirconditioningMaintenanceSe1ViewModel() { return new global::AppStudio.ViewModels.AirconditioningMaintenanceSe1ViewModel(); }
+        private object Activate_71_AircraftSpareParts1Page() { return new global::AppStudio.Views.AircraftSpareParts1Page(); }
+        private object Activate_72_AircraftSpareParts1ViewModel() { return new global::AppStudio.ViewModels.AircraftSpareParts1ViewModel(); }
+        private object Activate_74_AmmunitionsAndExplosives1Page() { return new global::AppStudio.Views.AmmunitionsAndExplosives1Page(); }
+        private object Activate_75_AmmunitionsAndExplosives1ViewModel() { return new global::AppStudio.ViewModels.AmmunitionsAndExplosives1ViewModel(); }
+        private object Activate_77_AnimalFeeds1Page() { return new global::AppStudio.Views.AnimalFeeds1Page(); }
+        private object Activate_78_AnimalFeeds1ViewModel() { return new global::AppStudio.ViewModels.AnimalFeeds1ViewModel(); }
+        private object Activate_80_Appliances1Page() { return new global::AppStudio.Views.Appliances1Page(); }
+        private object Activate_81_Appliances1ViewModel() { return new global::AppStudio.ViewModels.Appliances1ViewModel(); }
+        private object Activate_83_AdvertisingAgencyServicesDetail() { return new global::AppStudio.Views.AdvertisingAgencyServicesDetail(); }
+        private object Activate_84_AgriculturalChemicalsDetail() { return new global::AppStudio.Views.AgriculturalChemicalsDetail(); }
+        private object Activate_85_AgriculturalMachineryAndEquDetail() { return new global::AppStudio.Views.AgriculturalMachineryAndEquDetail(); }
+        private object Activate_86_AgriculturalProductsDetail() { return new global::AppStudio.Views.AgriculturalProductsDetail(); }
+        private object Activate_87_AirconditioningAndAirconditiDetail() { return new global::AppStudio.Views.AirconditioningAndAirconditiDetail(); }
+        private object Activate_88_AirconditioningMaintenanceSeDetail() { return new global::AppStudio.Views.AirconditioningMaintenanceSeDetail(); }
+        private object Activate_89_AircraftSparePartsDetail() { return new global::AppStudio.Views.AircraftSparePartsDetail(); }
+        private object Activate_90_AmmunitionsAndExplosivesDetail() { return new global::AppStudio.Views.AmmunitionsAndExplosivesDetail(); }
+        private object Activate_91_AnimalFeedsDetail() { return new global::AppStudio.Views.AnimalFeedsDetail(); }
+        private object Activate_92_AppliancesDetail() { return new global::AppStudio.Views.AppliancesDetail(); }
+        private object Activate_93_AdvertisingAgencyServices1Detail() { return new global::AppStudio.Views.AdvertisingAgencyServices1Detail(); }
+        private object Activate_94_AgriculturalChemicals1Detail() { return new global::AppStudio.Views.AgriculturalChemicals1Detail(); }
+        private object Activate_95_AgriculturalMachineryAndEqu1Detail() { return new global::AppStudio.Views.AgriculturalMachineryAndEqu1Detail(); }
+        private object Activate_96_AgriculturalProducts1Detail() { return new global::AppStudio.Views.AgriculturalProducts1Detail(); }
+        private object Activate_97_AirconditioningAndAirconditi1Detail() { return new global::AppStudio.Views.AirconditioningAndAirconditi1Detail(); }
+        private object Activate_98_AirconditioningMaintenanceSe1Detail() { return new global::AppStudio.Views.AirconditioningMaintenanceSe1Detail(); }
+        private object Activate_99_AircraftSpareParts1Detail() { return new global::AppStudio.Views.AircraftSpareParts1Detail(); }
+        private object Activate_100_AmmunitionsAndExplosives1Detail() { return new global::AppStudio.Views.AmmunitionsAndExplosives1Detail(); }
+        private object Activate_101_AnimalFeeds1Detail() { return new global::AppStudio.Views.AnimalFeeds1Detail(); }
+        private object Activate_102_Appliances1Detail() { return new global::AppStudio.Views.Appliances1Detail(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -532,23 +609,23 @@ namespace AppStudio.AppStudio_WindowsPhone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 22:   //  AppStudio.Views.TradingPage
+            case 22:   //  AppStudio.Views.AdvertisingAgencyServicesPage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_22_TradingPage;
-                userType.AddMemberName("TradingModel");
+                userType.Activator = Activate_22_AdvertisingAgencyServicesPage;
+                userType.AddMemberName("AdvertisingAgencyServicesModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 23:   //  AppStudio.ViewModels.TradingViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.TradingSchema>"));
+            case 23:   //  AppStudio.ViewModels.AdvertisingAgencyServicesViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AdvertisingAgencyServicesSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 24:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.TradingSchema>
+            case 24:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AdvertisingAgencyServicesSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -560,382 +637,599 @@ namespace AppStudio.AppStudio_WindowsPhone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 26:   //  AppStudio.Views.ConsultancyPage
+            case 26:   //  AppStudio.Views.AgriculturalChemicalsPage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_26_ConsultancyPage;
-                userType.AddMemberName("ConsultancyModel");
+                userType.Activator = Activate_26_AgriculturalChemicalsPage;
+                userType.AddMemberName("AgriculturalChemicalsModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 27:   //  AppStudio.ViewModels.ConsultancyViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ConsultancySchema>"));
+            case 27:   //  AppStudio.ViewModels.AgriculturalChemicalsViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalChemicalsSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 28:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ConsultancySchema>
+            case 28:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalChemicalsSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 29:   //  AppStudio.Views.DistributorPage
+            case 29:   //  AppStudio.Views.AgriculturalMachineryAndEquPage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_29_DistributorPage;
-                userType.AddMemberName("DistributorModel");
+                userType.Activator = Activate_29_AgriculturalMachineryAndEquPage;
+                userType.AddMemberName("AgriculturalMachineryAndEquModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 30:   //  AppStudio.ViewModels.DistributorViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.DistributorSchema>"));
+            case 30:   //  AppStudio.ViewModels.AgriculturalMachineryAndEquViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalMachineryAndEquSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 31:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.DistributorSchema>
+            case 31:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalMachineryAndEquSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 32:   //  AppStudio.Views.ExecutiveSoleDistributorPage
+            case 32:   //  AppStudio.Views.AgriculturalProductsPage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_32_ExecutiveSoleDistributorPage;
-                userType.AddMemberName("ExecutiveSoleDistributorModel");
+                userType.Activator = Activate_32_AgriculturalProductsPage;
+                userType.AddMemberName("AgriculturalProductsModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 33:   //  AppStudio.ViewModels.ExecutiveSoleDistributorViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ExecutiveSoleDistributorSchema>"));
+            case 33:   //  AppStudio.ViewModels.AgriculturalProductsViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalProductsSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 34:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ExecutiveSoleDistributorSchema>
+            case 34:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalProductsSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 35:   //  AppStudio.Views.GeneralContractorPage
+            case 35:   //  AppStudio.Views.AirconditioningAndAirconditiPage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_35_GeneralContractorPage;
-                userType.AddMemberName("GeneralContractorModel");
+                userType.Activator = Activate_35_AirconditioningAndAirconditiPage;
+                userType.AddMemberName("AirconditioningAndAirconditiModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 36:   //  AppStudio.ViewModels.GeneralContractorViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.GeneralContractorSchema>"));
+            case 36:   //  AppStudio.ViewModels.AirconditioningAndAirconditiViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningAndAirconditiSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 37:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.GeneralContractorSchema>
+            case 37:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningAndAirconditiSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 38:   //  AppStudio.Views.GeneralMerchandisePage
+            case 38:   //  AppStudio.Views.AirconditioningMaintenanceSePage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_38_GeneralMerchandisePage;
-                userType.AddMemberName("GeneralMerchandiseModel");
+                userType.Activator = Activate_38_AirconditioningMaintenanceSePage;
+                userType.AddMemberName("AirconditioningMaintenanceSeModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 39:   //  AppStudio.ViewModels.GeneralMerchandiseViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.GeneralMerchandiseSchema>"));
+            case 39:   //  AppStudio.ViewModels.AirconditioningMaintenanceSeViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningMaintenanceSeSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 40:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.GeneralMerchandiseSchema>
+            case 40:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningMaintenanceSeSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 41:   //  AppStudio.Views.InformationTechnologyPage
+            case 41:   //  AppStudio.Views.AircraftSparePartsPage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_41_InformationTechnologyPage;
-                userType.AddMemberName("InformationTechnologyModel");
+                userType.Activator = Activate_41_AircraftSparePartsPage;
+                userType.AddMemberName("AircraftSparePartsModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 42:   //  AppStudio.ViewModels.InformationTechnologyViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.InformationTechnologySchema>"));
+            case 42:   //  AppStudio.ViewModels.AircraftSparePartsViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AircraftSparePartsSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 43:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.InformationTechnologySchema>
+            case 43:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AircraftSparePartsSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  AppStudio.Views.ManufacturerPage
+            case 44:   //  AppStudio.Views.AmmunitionsAndExplosivesPage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_44_ManufacturerPage;
-                userType.AddMemberName("ManufacturerModel");
+                userType.Activator = Activate_44_AmmunitionsAndExplosivesPage;
+                userType.AddMemberName("AmmunitionsAndExplosivesModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 45:   //  AppStudio.ViewModels.ManufacturerViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ManufacturerSchema>"));
+            case 45:   //  AppStudio.ViewModels.AmmunitionsAndExplosivesViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AmmunitionsAndExplosivesSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 46:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ManufacturerSchema>
+            case 46:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AmmunitionsAndExplosivesSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 47:   //  AppStudio.Views.NonGovernmentOrganizationPage
+            case 47:   //  AppStudio.Views.AnimalFeedsPage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_47_NonGovernmentOrganizationPage;
-                userType.AddMemberName("NonGovernmentOrganizationModel");
+                userType.Activator = Activate_47_AnimalFeedsPage;
+                userType.AddMemberName("AnimalFeedsModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 48:   //  AppStudio.ViewModels.NonGovernmentOrganizationViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.NonGovernmentOrganizationSchema>"));
+            case 48:   //  AppStudio.ViewModels.AnimalFeedsViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AnimalFeedsSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 49:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.NonGovernmentOrganizationSchema>
+            case 49:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AnimalFeedsSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 50:   //  AppStudio.Views.OthersPage
+            case 50:   //  AppStudio.Views.AppliancesPage
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_50_OthersPage;
-                userType.AddMemberName("OthersModel");
+                userType.Activator = Activate_50_AppliancesPage;
+                userType.AddMemberName("AppliancesModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 51:   //  AppStudio.ViewModels.OthersViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.OthersSchema>"));
+            case 51:   //  AppStudio.ViewModels.AppliancesViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AppliancesSchema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 52:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.OthersSchema>
+            case 52:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AppliancesSchema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 53:   //  AppStudio.Views.ServicesPage
+            case 53:   //  AppStudio.Views.AdvertisingAgencyServices1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_53_ServicesPage;
-                userType.AddMemberName("ServicesModel");
+                userType.Activator = Activate_53_AdvertisingAgencyServices1Page;
+                userType.AddMemberName("AdvertisingAgencyServices1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 54:   //  AppStudio.ViewModels.ServicesViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ServicesSchema>"));
+            case 54:   //  AppStudio.ViewModels.AdvertisingAgencyServices1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AdvertisingAgencyServices1Schema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 55:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.ServicesSchema>
+            case 55:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AdvertisingAgencyServices1Schema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 56:   //  AppStudio.Views.SystemIntegratorPage
+            case 56:   //  AppStudio.Views.AgriculturalChemicals1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_56_SystemIntegratorPage;
-                userType.AddMemberName("SystemIntegratorModel");
+                userType.Activator = Activate_56_AgriculturalChemicals1Page;
+                userType.AddMemberName("AgriculturalChemicals1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  AppStudio.ViewModels.SystemIntegratorViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.SystemIntegratorSchema>"));
+            case 57:   //  AppStudio.ViewModels.AgriculturalChemicals1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalChemicals1Schema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 58:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.SystemIntegratorSchema>
+            case 58:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalChemicals1Schema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 59:   //  AppStudio.Views.TelecommunicationsSolutionsPage
+            case 59:   //  AppStudio.Views.AgriculturalMachineryAndEqu1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_59_TelecommunicationsSolutionsPage;
-                userType.AddMemberName("TelecommunicationsSolutionsModel");
+                userType.Activator = Activate_59_AgriculturalMachineryAndEqu1Page;
+                userType.AddMemberName("AgriculturalMachineryAndEqu1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 60:   //  AppStudio.ViewModels.TelecommunicationsSolutionsViewModel
-                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.TelecommunicationsSolutionsSchema>"));
+            case 60:   //  AppStudio.ViewModels.AgriculturalMachineryAndEqu1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalMachineryAndEqu1Schema>"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 61:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.TelecommunicationsSolutionsSchema>
+            case 61:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalMachineryAndEqu1Schema>
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 62:   //  AppStudio.Views.TradingDetail
+            case 62:   //  AppStudio.Views.AgriculturalProducts1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_62_TradingDetail;
-                userType.AddMemberName("TradingModel");
+                userType.Activator = Activate_62_AgriculturalProducts1Page;
+                userType.AddMemberName("AgriculturalProducts1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 63:   //  AppStudio.Views.ConsultancyDetail
+            case 63:   //  AppStudio.ViewModels.AgriculturalProducts1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalProducts1Schema>"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 64:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AgriculturalProducts1Schema>
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 65:   //  AppStudio.Views.AirconditioningAndAirconditi1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_63_ConsultancyDetail;
-                userType.AddMemberName("ConsultancyModel");
+                userType.Activator = Activate_65_AirconditioningAndAirconditi1Page;
+                userType.AddMemberName("AirconditioningAndAirconditi1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 64:   //  AppStudio.Views.DistributorDetail
+            case 66:   //  AppStudio.ViewModels.AirconditioningAndAirconditi1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningAndAirconditi1Schema>"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 67:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningAndAirconditi1Schema>
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 68:   //  AppStudio.Views.AirconditioningMaintenanceSe1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_64_DistributorDetail;
-                userType.AddMemberName("DistributorModel");
+                userType.Activator = Activate_68_AirconditioningMaintenanceSe1Page;
+                userType.AddMemberName("AirconditioningMaintenanceSe1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 65:   //  AppStudio.Views.ExecutiveSoleDistributorDetail
+            case 69:   //  AppStudio.ViewModels.AirconditioningMaintenanceSe1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningMaintenanceSe1Schema>"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 70:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AirconditioningMaintenanceSe1Schema>
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 71:   //  AppStudio.Views.AircraftSpareParts1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_65_ExecutiveSoleDistributorDetail;
-                userType.AddMemberName("ExecutiveSoleDistributorModel");
+                userType.Activator = Activate_71_AircraftSpareParts1Page;
+                userType.AddMemberName("AircraftSpareParts1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 66:   //  AppStudio.Views.GeneralContractorDetail
+            case 72:   //  AppStudio.ViewModels.AircraftSpareParts1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AircraftSpareParts1Schema>"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 73:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AircraftSpareParts1Schema>
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 74:   //  AppStudio.Views.AmmunitionsAndExplosives1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_66_GeneralContractorDetail;
-                userType.AddMemberName("GeneralContractorModel");
+                userType.Activator = Activate_74_AmmunitionsAndExplosives1Page;
+                userType.AddMemberName("AmmunitionsAndExplosives1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 67:   //  AppStudio.Views.GeneralMerchandiseDetail
+            case 75:   //  AppStudio.ViewModels.AmmunitionsAndExplosives1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AmmunitionsAndExplosives1Schema>"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 76:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AmmunitionsAndExplosives1Schema>
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 77:   //  AppStudio.Views.AnimalFeeds1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_67_GeneralMerchandiseDetail;
-                userType.AddMemberName("GeneralMerchandiseModel");
+                userType.Activator = Activate_77_AnimalFeeds1Page;
+                userType.AddMemberName("AnimalFeeds1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 68:   //  AppStudio.Views.InformationTechnologyDetail
+            case 78:   //  AppStudio.ViewModels.AnimalFeeds1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AnimalFeeds1Schema>"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 79:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.AnimalFeeds1Schema>
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 80:   //  AppStudio.Views.Appliances1Page
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_68_InformationTechnologyDetail;
-                userType.AddMemberName("InformationTechnologyModel");
+                userType.Activator = Activate_80_Appliances1Page;
+                userType.AddMemberName("Appliances1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 69:   //  AppStudio.Views.ManufacturerDetail
+            case 81:   //  AppStudio.ViewModels.Appliances1ViewModel
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.Appliances1Schema>"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 82:   //  AppStudio.ViewModels.ViewModelBase`1<AppStudio.Data.Appliances1Schema>
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.ViewModels.ViewModelBase"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 83:   //  AppStudio.Views.AdvertisingAgencyServicesDetail
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_69_ManufacturerDetail;
-                userType.AddMemberName("ManufacturerModel");
+                userType.Activator = Activate_83_AdvertisingAgencyServicesDetail;
+                userType.AddMemberName("AdvertisingAgencyServicesModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 70:   //  AppStudio.Views.NonGovernmentOrganizationDetail
+            case 84:   //  AppStudio.Views.AgriculturalChemicalsDetail
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_70_NonGovernmentOrganizationDetail;
-                userType.AddMemberName("NonGovernmentOrganizationModel");
+                userType.Activator = Activate_84_AgriculturalChemicalsDetail;
+                userType.AddMemberName("AgriculturalChemicalsModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 71:   //  AppStudio.Views.OthersDetail
+            case 85:   //  AppStudio.Views.AgriculturalMachineryAndEquDetail
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_71_OthersDetail;
-                userType.AddMemberName("OthersModel");
+                userType.Activator = Activate_85_AgriculturalMachineryAndEquDetail;
+                userType.AddMemberName("AgriculturalMachineryAndEquModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 72:   //  AppStudio.Views.ServicesDetail
+            case 86:   //  AppStudio.Views.AgriculturalProductsDetail
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_72_ServicesDetail;
-                userType.AddMemberName("ServicesModel");
+                userType.Activator = Activate_86_AgriculturalProductsDetail;
+                userType.AddMemberName("AgriculturalProductsModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 73:   //  AppStudio.Views.SystemIntegratorDetail
+            case 87:   //  AppStudio.Views.AirconditioningAndAirconditiDetail
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_73_SystemIntegratorDetail;
-                userType.AddMemberName("SystemIntegratorModel");
+                userType.Activator = Activate_87_AirconditioningAndAirconditiDetail;
+                userType.AddMemberName("AirconditioningAndAirconditiModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 74:   //  AppStudio.Views.TelecommunicationsSolutionsDetail
+            case 88:   //  AppStudio.Views.AirconditioningMaintenanceSeDetail
                 userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_74_TelecommunicationsSolutionsDetail;
-                userType.AddMemberName("TelecommunicationsSolutionsModel");
+                userType.Activator = Activate_88_AirconditioningMaintenanceSeDetail;
+                userType.AddMemberName("AirconditioningMaintenanceSeModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 89:   //  AppStudio.Views.AircraftSparePartsDetail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_89_AircraftSparePartsDetail;
+                userType.AddMemberName("AircraftSparePartsModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 90:   //  AppStudio.Views.AmmunitionsAndExplosivesDetail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_90_AmmunitionsAndExplosivesDetail;
+                userType.AddMemberName("AmmunitionsAndExplosivesModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 91:   //  AppStudio.Views.AnimalFeedsDetail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_91_AnimalFeedsDetail;
+                userType.AddMemberName("AnimalFeedsModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 92:   //  AppStudio.Views.AppliancesDetail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_92_AppliancesDetail;
+                userType.AddMemberName("AppliancesModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 93:   //  AppStudio.Views.AdvertisingAgencyServices1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_93_AdvertisingAgencyServices1Detail;
+                userType.AddMemberName("AdvertisingAgencyServices1Model");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 94:   //  AppStudio.Views.AgriculturalChemicals1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_94_AgriculturalChemicals1Detail;
+                userType.AddMemberName("AgriculturalChemicals1Model");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 95:   //  AppStudio.Views.AgriculturalMachineryAndEqu1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_95_AgriculturalMachineryAndEqu1Detail;
+                userType.AddMemberName("AgriculturalMachineryAndEqu1Model");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 96:   //  AppStudio.Views.AgriculturalProducts1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_96_AgriculturalProducts1Detail;
+                userType.AddMemberName("AgriculturalProducts1Model");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 97:   //  AppStudio.Views.AirconditioningAndAirconditi1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_97_AirconditioningAndAirconditi1Detail;
+                userType.AddMemberName("AirconditioningAndAirconditi1Model");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 98:   //  AppStudio.Views.AirconditioningMaintenanceSe1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_98_AirconditioningMaintenanceSe1Detail;
+                userType.AddMemberName("AirconditioningMaintenanceSe1Model");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 99:   //  AppStudio.Views.AircraftSpareParts1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_99_AircraftSpareParts1Detail;
+                userType.AddMemberName("AircraftSpareParts1Model");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 100:   //  AppStudio.Views.AmmunitionsAndExplosives1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_100_AmmunitionsAndExplosives1Detail;
+                userType.AddMemberName("AmmunitionsAndExplosives1Model");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 101:   //  AppStudio.Views.AnimalFeeds1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_101_AnimalFeeds1Detail;
+                userType.AddMemberName("AnimalFeeds1Model");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 102:   //  AppStudio.Views.Appliances1Detail
+                userType = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_102_Appliances1Detail;
+                userType.AddMemberName("Appliances1Model");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -1029,264 +1323,404 @@ namespace AppStudio.AppStudio_WindowsPhone_XamlTypeInfo
             var that = (global::AppStudio.Views.MainPage)instance;
             return that.NavigationHelper;
         }
-        private object get_5_TradingPage_TradingModel(object instance)
+        private object get_5_AdvertisingAgencyServicesPage_AdvertisingAgencyServicesModel(object instance)
         {
-            var that = (global::AppStudio.Views.TradingPage)instance;
-            return that.TradingModel;
+            var that = (global::AppStudio.Views.AdvertisingAgencyServicesPage)instance;
+            return that.AdvertisingAgencyServicesModel;
         }
-        private object get_6_TradingPage_NavigationHelper(object instance)
+        private object get_6_AdvertisingAgencyServicesPage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.TradingPage)instance;
+            var that = (global::AppStudio.Views.AdvertisingAgencyServicesPage)instance;
             return that.NavigationHelper;
         }
-        private object get_7_ConsultancyPage_ConsultancyModel(object instance)
+        private object get_7_AgriculturalChemicalsPage_AgriculturalChemicalsModel(object instance)
         {
-            var that = (global::AppStudio.Views.ConsultancyPage)instance;
-            return that.ConsultancyModel;
+            var that = (global::AppStudio.Views.AgriculturalChemicalsPage)instance;
+            return that.AgriculturalChemicalsModel;
         }
-        private object get_8_ConsultancyPage_NavigationHelper(object instance)
+        private object get_8_AgriculturalChemicalsPage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.ConsultancyPage)instance;
+            var that = (global::AppStudio.Views.AgriculturalChemicalsPage)instance;
             return that.NavigationHelper;
         }
-        private object get_9_DistributorPage_DistributorModel(object instance)
+        private object get_9_AgriculturalMachineryAndEquPage_AgriculturalMachineryAndEquModel(object instance)
         {
-            var that = (global::AppStudio.Views.DistributorPage)instance;
-            return that.DistributorModel;
+            var that = (global::AppStudio.Views.AgriculturalMachineryAndEquPage)instance;
+            return that.AgriculturalMachineryAndEquModel;
         }
-        private object get_10_DistributorPage_NavigationHelper(object instance)
+        private object get_10_AgriculturalMachineryAndEquPage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.DistributorPage)instance;
+            var that = (global::AppStudio.Views.AgriculturalMachineryAndEquPage)instance;
             return that.NavigationHelper;
         }
-        private object get_11_ExecutiveSoleDistributorPage_ExecutiveSoleDistributorModel(object instance)
+        private object get_11_AgriculturalProductsPage_AgriculturalProductsModel(object instance)
         {
-            var that = (global::AppStudio.Views.ExecutiveSoleDistributorPage)instance;
-            return that.ExecutiveSoleDistributorModel;
+            var that = (global::AppStudio.Views.AgriculturalProductsPage)instance;
+            return that.AgriculturalProductsModel;
         }
-        private object get_12_ExecutiveSoleDistributorPage_NavigationHelper(object instance)
+        private object get_12_AgriculturalProductsPage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.ExecutiveSoleDistributorPage)instance;
+            var that = (global::AppStudio.Views.AgriculturalProductsPage)instance;
             return that.NavigationHelper;
         }
-        private object get_13_GeneralContractorPage_GeneralContractorModel(object instance)
+        private object get_13_AirconditioningAndAirconditiPage_AirconditioningAndAirconditiModel(object instance)
         {
-            var that = (global::AppStudio.Views.GeneralContractorPage)instance;
-            return that.GeneralContractorModel;
+            var that = (global::AppStudio.Views.AirconditioningAndAirconditiPage)instance;
+            return that.AirconditioningAndAirconditiModel;
         }
-        private object get_14_GeneralContractorPage_NavigationHelper(object instance)
+        private object get_14_AirconditioningAndAirconditiPage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.GeneralContractorPage)instance;
+            var that = (global::AppStudio.Views.AirconditioningAndAirconditiPage)instance;
             return that.NavigationHelper;
         }
-        private object get_15_GeneralMerchandisePage_GeneralMerchandiseModel(object instance)
+        private object get_15_AirconditioningMaintenanceSePage_AirconditioningMaintenanceSeModel(object instance)
         {
-            var that = (global::AppStudio.Views.GeneralMerchandisePage)instance;
-            return that.GeneralMerchandiseModel;
+            var that = (global::AppStudio.Views.AirconditioningMaintenanceSePage)instance;
+            return that.AirconditioningMaintenanceSeModel;
         }
-        private object get_16_GeneralMerchandisePage_NavigationHelper(object instance)
+        private object get_16_AirconditioningMaintenanceSePage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.GeneralMerchandisePage)instance;
+            var that = (global::AppStudio.Views.AirconditioningMaintenanceSePage)instance;
             return that.NavigationHelper;
         }
-        private object get_17_InformationTechnologyPage_InformationTechnologyModel(object instance)
+        private object get_17_AircraftSparePartsPage_AircraftSparePartsModel(object instance)
         {
-            var that = (global::AppStudio.Views.InformationTechnologyPage)instance;
-            return that.InformationTechnologyModel;
+            var that = (global::AppStudio.Views.AircraftSparePartsPage)instance;
+            return that.AircraftSparePartsModel;
         }
-        private object get_18_InformationTechnologyPage_NavigationHelper(object instance)
+        private object get_18_AircraftSparePartsPage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.InformationTechnologyPage)instance;
+            var that = (global::AppStudio.Views.AircraftSparePartsPage)instance;
             return that.NavigationHelper;
         }
-        private object get_19_ManufacturerPage_ManufacturerModel(object instance)
+        private object get_19_AmmunitionsAndExplosivesPage_AmmunitionsAndExplosivesModel(object instance)
         {
-            var that = (global::AppStudio.Views.ManufacturerPage)instance;
-            return that.ManufacturerModel;
+            var that = (global::AppStudio.Views.AmmunitionsAndExplosivesPage)instance;
+            return that.AmmunitionsAndExplosivesModel;
         }
-        private object get_20_ManufacturerPage_NavigationHelper(object instance)
+        private object get_20_AmmunitionsAndExplosivesPage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.ManufacturerPage)instance;
+            var that = (global::AppStudio.Views.AmmunitionsAndExplosivesPage)instance;
             return that.NavigationHelper;
         }
-        private object get_21_NonGovernmentOrganizationPage_NonGovernmentOrganizationModel(object instance)
+        private object get_21_AnimalFeedsPage_AnimalFeedsModel(object instance)
         {
-            var that = (global::AppStudio.Views.NonGovernmentOrganizationPage)instance;
-            return that.NonGovernmentOrganizationModel;
+            var that = (global::AppStudio.Views.AnimalFeedsPage)instance;
+            return that.AnimalFeedsModel;
         }
-        private object get_22_NonGovernmentOrganizationPage_NavigationHelper(object instance)
+        private object get_22_AnimalFeedsPage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.NonGovernmentOrganizationPage)instance;
+            var that = (global::AppStudio.Views.AnimalFeedsPage)instance;
             return that.NavigationHelper;
         }
-        private object get_23_OthersPage_OthersModel(object instance)
+        private object get_23_AppliancesPage_AppliancesModel(object instance)
         {
-            var that = (global::AppStudio.Views.OthersPage)instance;
-            return that.OthersModel;
+            var that = (global::AppStudio.Views.AppliancesPage)instance;
+            return that.AppliancesModel;
         }
-        private object get_24_OthersPage_NavigationHelper(object instance)
+        private object get_24_AppliancesPage_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.OthersPage)instance;
+            var that = (global::AppStudio.Views.AppliancesPage)instance;
             return that.NavigationHelper;
         }
-        private object get_25_ServicesPage_ServicesModel(object instance)
+        private object get_25_AdvertisingAgencyServices1Page_AdvertisingAgencyServices1Model(object instance)
         {
-            var that = (global::AppStudio.Views.ServicesPage)instance;
-            return that.ServicesModel;
+            var that = (global::AppStudio.Views.AdvertisingAgencyServices1Page)instance;
+            return that.AdvertisingAgencyServices1Model;
         }
-        private object get_26_ServicesPage_NavigationHelper(object instance)
+        private object get_26_AdvertisingAgencyServices1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.ServicesPage)instance;
+            var that = (global::AppStudio.Views.AdvertisingAgencyServices1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_27_SystemIntegratorPage_SystemIntegratorModel(object instance)
+        private object get_27_AgriculturalChemicals1Page_AgriculturalChemicals1Model(object instance)
         {
-            var that = (global::AppStudio.Views.SystemIntegratorPage)instance;
-            return that.SystemIntegratorModel;
+            var that = (global::AppStudio.Views.AgriculturalChemicals1Page)instance;
+            return that.AgriculturalChemicals1Model;
         }
-        private object get_28_SystemIntegratorPage_NavigationHelper(object instance)
+        private object get_28_AgriculturalChemicals1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.SystemIntegratorPage)instance;
+            var that = (global::AppStudio.Views.AgriculturalChemicals1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_29_TelecommunicationsSolutionsPage_TelecommunicationsSolutionsModel(object instance)
+        private object get_29_AgriculturalMachineryAndEqu1Page_AgriculturalMachineryAndEqu1Model(object instance)
         {
-            var that = (global::AppStudio.Views.TelecommunicationsSolutionsPage)instance;
-            return that.TelecommunicationsSolutionsModel;
+            var that = (global::AppStudio.Views.AgriculturalMachineryAndEqu1Page)instance;
+            return that.AgriculturalMachineryAndEqu1Model;
         }
-        private object get_30_TelecommunicationsSolutionsPage_NavigationHelper(object instance)
+        private object get_30_AgriculturalMachineryAndEqu1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.TelecommunicationsSolutionsPage)instance;
+            var that = (global::AppStudio.Views.AgriculturalMachineryAndEqu1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_31_TradingDetail_TradingModel(object instance)
+        private object get_31_AgriculturalProducts1Page_AgriculturalProducts1Model(object instance)
         {
-            var that = (global::AppStudio.Views.TradingDetail)instance;
-            return that.TradingModel;
+            var that = (global::AppStudio.Views.AgriculturalProducts1Page)instance;
+            return that.AgriculturalProducts1Model;
         }
-        private object get_32_TradingDetail_NavigationHelper(object instance)
+        private object get_32_AgriculturalProducts1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.TradingDetail)instance;
+            var that = (global::AppStudio.Views.AgriculturalProducts1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_33_ConsultancyDetail_ConsultancyModel(object instance)
+        private object get_33_AirconditioningAndAirconditi1Page_AirconditioningAndAirconditi1Model(object instance)
         {
-            var that = (global::AppStudio.Views.ConsultancyDetail)instance;
-            return that.ConsultancyModel;
+            var that = (global::AppStudio.Views.AirconditioningAndAirconditi1Page)instance;
+            return that.AirconditioningAndAirconditi1Model;
         }
-        private object get_34_ConsultancyDetail_NavigationHelper(object instance)
+        private object get_34_AirconditioningAndAirconditi1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.ConsultancyDetail)instance;
+            var that = (global::AppStudio.Views.AirconditioningAndAirconditi1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_35_DistributorDetail_DistributorModel(object instance)
+        private object get_35_AirconditioningMaintenanceSe1Page_AirconditioningMaintenanceSe1Model(object instance)
         {
-            var that = (global::AppStudio.Views.DistributorDetail)instance;
-            return that.DistributorModel;
+            var that = (global::AppStudio.Views.AirconditioningMaintenanceSe1Page)instance;
+            return that.AirconditioningMaintenanceSe1Model;
         }
-        private object get_36_DistributorDetail_NavigationHelper(object instance)
+        private object get_36_AirconditioningMaintenanceSe1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.DistributorDetail)instance;
+            var that = (global::AppStudio.Views.AirconditioningMaintenanceSe1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_37_ExecutiveSoleDistributorDetail_ExecutiveSoleDistributorModel(object instance)
+        private object get_37_AircraftSpareParts1Page_AircraftSpareParts1Model(object instance)
         {
-            var that = (global::AppStudio.Views.ExecutiveSoleDistributorDetail)instance;
-            return that.ExecutiveSoleDistributorModel;
+            var that = (global::AppStudio.Views.AircraftSpareParts1Page)instance;
+            return that.AircraftSpareParts1Model;
         }
-        private object get_38_ExecutiveSoleDistributorDetail_NavigationHelper(object instance)
+        private object get_38_AircraftSpareParts1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.ExecutiveSoleDistributorDetail)instance;
+            var that = (global::AppStudio.Views.AircraftSpareParts1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_39_GeneralContractorDetail_GeneralContractorModel(object instance)
+        private object get_39_AmmunitionsAndExplosives1Page_AmmunitionsAndExplosives1Model(object instance)
         {
-            var that = (global::AppStudio.Views.GeneralContractorDetail)instance;
-            return that.GeneralContractorModel;
+            var that = (global::AppStudio.Views.AmmunitionsAndExplosives1Page)instance;
+            return that.AmmunitionsAndExplosives1Model;
         }
-        private object get_40_GeneralContractorDetail_NavigationHelper(object instance)
+        private object get_40_AmmunitionsAndExplosives1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.GeneralContractorDetail)instance;
+            var that = (global::AppStudio.Views.AmmunitionsAndExplosives1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_41_GeneralMerchandiseDetail_GeneralMerchandiseModel(object instance)
+        private object get_41_AnimalFeeds1Page_AnimalFeeds1Model(object instance)
         {
-            var that = (global::AppStudio.Views.GeneralMerchandiseDetail)instance;
-            return that.GeneralMerchandiseModel;
+            var that = (global::AppStudio.Views.AnimalFeeds1Page)instance;
+            return that.AnimalFeeds1Model;
         }
-        private object get_42_GeneralMerchandiseDetail_NavigationHelper(object instance)
+        private object get_42_AnimalFeeds1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.GeneralMerchandiseDetail)instance;
+            var that = (global::AppStudio.Views.AnimalFeeds1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_43_InformationTechnologyDetail_InformationTechnologyModel(object instance)
+        private object get_43_Appliances1Page_Appliances1Model(object instance)
         {
-            var that = (global::AppStudio.Views.InformationTechnologyDetail)instance;
-            return that.InformationTechnologyModel;
+            var that = (global::AppStudio.Views.Appliances1Page)instance;
+            return that.Appliances1Model;
         }
-        private object get_44_InformationTechnologyDetail_NavigationHelper(object instance)
+        private object get_44_Appliances1Page_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.InformationTechnologyDetail)instance;
+            var that = (global::AppStudio.Views.Appliances1Page)instance;
             return that.NavigationHelper;
         }
-        private object get_45_ManufacturerDetail_ManufacturerModel(object instance)
+        private object get_45_AdvertisingAgencyServicesDetail_AdvertisingAgencyServicesModel(object instance)
         {
-            var that = (global::AppStudio.Views.ManufacturerDetail)instance;
-            return that.ManufacturerModel;
+            var that = (global::AppStudio.Views.AdvertisingAgencyServicesDetail)instance;
+            return that.AdvertisingAgencyServicesModel;
         }
-        private object get_46_ManufacturerDetail_NavigationHelper(object instance)
+        private object get_46_AdvertisingAgencyServicesDetail_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.ManufacturerDetail)instance;
+            var that = (global::AppStudio.Views.AdvertisingAgencyServicesDetail)instance;
             return that.NavigationHelper;
         }
-        private object get_47_NonGovernmentOrganizationDetail_NonGovernmentOrganizationModel(object instance)
+        private object get_47_AgriculturalChemicalsDetail_AgriculturalChemicalsModel(object instance)
         {
-            var that = (global::AppStudio.Views.NonGovernmentOrganizationDetail)instance;
-            return that.NonGovernmentOrganizationModel;
+            var that = (global::AppStudio.Views.AgriculturalChemicalsDetail)instance;
+            return that.AgriculturalChemicalsModel;
         }
-        private object get_48_NonGovernmentOrganizationDetail_NavigationHelper(object instance)
+        private object get_48_AgriculturalChemicalsDetail_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.NonGovernmentOrganizationDetail)instance;
+            var that = (global::AppStudio.Views.AgriculturalChemicalsDetail)instance;
             return that.NavigationHelper;
         }
-        private object get_49_OthersDetail_OthersModel(object instance)
+        private object get_49_AgriculturalMachineryAndEquDetail_AgriculturalMachineryAndEquModel(object instance)
         {
-            var that = (global::AppStudio.Views.OthersDetail)instance;
-            return that.OthersModel;
+            var that = (global::AppStudio.Views.AgriculturalMachineryAndEquDetail)instance;
+            return that.AgriculturalMachineryAndEquModel;
         }
-        private object get_50_OthersDetail_NavigationHelper(object instance)
+        private object get_50_AgriculturalMachineryAndEquDetail_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.OthersDetail)instance;
+            var that = (global::AppStudio.Views.AgriculturalMachineryAndEquDetail)instance;
             return that.NavigationHelper;
         }
-        private object get_51_ServicesDetail_ServicesModel(object instance)
+        private object get_51_AgriculturalProductsDetail_AgriculturalProductsModel(object instance)
         {
-            var that = (global::AppStudio.Views.ServicesDetail)instance;
-            return that.ServicesModel;
+            var that = (global::AppStudio.Views.AgriculturalProductsDetail)instance;
+            return that.AgriculturalProductsModel;
         }
-        private object get_52_ServicesDetail_NavigationHelper(object instance)
+        private object get_52_AgriculturalProductsDetail_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.ServicesDetail)instance;
+            var that = (global::AppStudio.Views.AgriculturalProductsDetail)instance;
             return that.NavigationHelper;
         }
-        private object get_53_SystemIntegratorDetail_SystemIntegratorModel(object instance)
+        private object get_53_AirconditioningAndAirconditiDetail_AirconditioningAndAirconditiModel(object instance)
         {
-            var that = (global::AppStudio.Views.SystemIntegratorDetail)instance;
-            return that.SystemIntegratorModel;
+            var that = (global::AppStudio.Views.AirconditioningAndAirconditiDetail)instance;
+            return that.AirconditioningAndAirconditiModel;
         }
-        private object get_54_SystemIntegratorDetail_NavigationHelper(object instance)
+        private object get_54_AirconditioningAndAirconditiDetail_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.SystemIntegratorDetail)instance;
+            var that = (global::AppStudio.Views.AirconditioningAndAirconditiDetail)instance;
             return that.NavigationHelper;
         }
-        private object get_55_TelecommunicationsSolutionsDetail_TelecommunicationsSolutionsModel(object instance)
+        private object get_55_AirconditioningMaintenanceSeDetail_AirconditioningMaintenanceSeModel(object instance)
         {
-            var that = (global::AppStudio.Views.TelecommunicationsSolutionsDetail)instance;
-            return that.TelecommunicationsSolutionsModel;
+            var that = (global::AppStudio.Views.AirconditioningMaintenanceSeDetail)instance;
+            return that.AirconditioningMaintenanceSeModel;
         }
-        private object get_56_TelecommunicationsSolutionsDetail_NavigationHelper(object instance)
+        private object get_56_AirconditioningMaintenanceSeDetail_NavigationHelper(object instance)
         {
-            var that = (global::AppStudio.Views.TelecommunicationsSolutionsDetail)instance;
+            var that = (global::AppStudio.Views.AirconditioningMaintenanceSeDetail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_57_AircraftSparePartsDetail_AircraftSparePartsModel(object instance)
+        {
+            var that = (global::AppStudio.Views.AircraftSparePartsDetail)instance;
+            return that.AircraftSparePartsModel;
+        }
+        private object get_58_AircraftSparePartsDetail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AircraftSparePartsDetail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_59_AmmunitionsAndExplosivesDetail_AmmunitionsAndExplosivesModel(object instance)
+        {
+            var that = (global::AppStudio.Views.AmmunitionsAndExplosivesDetail)instance;
+            return that.AmmunitionsAndExplosivesModel;
+        }
+        private object get_60_AmmunitionsAndExplosivesDetail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AmmunitionsAndExplosivesDetail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_61_AnimalFeedsDetail_AnimalFeedsModel(object instance)
+        {
+            var that = (global::AppStudio.Views.AnimalFeedsDetail)instance;
+            return that.AnimalFeedsModel;
+        }
+        private object get_62_AnimalFeedsDetail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AnimalFeedsDetail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_63_AppliancesDetail_AppliancesModel(object instance)
+        {
+            var that = (global::AppStudio.Views.AppliancesDetail)instance;
+            return that.AppliancesModel;
+        }
+        private object get_64_AppliancesDetail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AppliancesDetail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_65_AdvertisingAgencyServices1Detail_AdvertisingAgencyServices1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.AdvertisingAgencyServices1Detail)instance;
+            return that.AdvertisingAgencyServices1Model;
+        }
+        private object get_66_AdvertisingAgencyServices1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AdvertisingAgencyServices1Detail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_67_AgriculturalChemicals1Detail_AgriculturalChemicals1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.AgriculturalChemicals1Detail)instance;
+            return that.AgriculturalChemicals1Model;
+        }
+        private object get_68_AgriculturalChemicals1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AgriculturalChemicals1Detail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_69_AgriculturalMachineryAndEqu1Detail_AgriculturalMachineryAndEqu1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.AgriculturalMachineryAndEqu1Detail)instance;
+            return that.AgriculturalMachineryAndEqu1Model;
+        }
+        private object get_70_AgriculturalMachineryAndEqu1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AgriculturalMachineryAndEqu1Detail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_71_AgriculturalProducts1Detail_AgriculturalProducts1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.AgriculturalProducts1Detail)instance;
+            return that.AgriculturalProducts1Model;
+        }
+        private object get_72_AgriculturalProducts1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AgriculturalProducts1Detail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_73_AirconditioningAndAirconditi1Detail_AirconditioningAndAirconditi1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.AirconditioningAndAirconditi1Detail)instance;
+            return that.AirconditioningAndAirconditi1Model;
+        }
+        private object get_74_AirconditioningAndAirconditi1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AirconditioningAndAirconditi1Detail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_75_AirconditioningMaintenanceSe1Detail_AirconditioningMaintenanceSe1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.AirconditioningMaintenanceSe1Detail)instance;
+            return that.AirconditioningMaintenanceSe1Model;
+        }
+        private object get_76_AirconditioningMaintenanceSe1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AirconditioningMaintenanceSe1Detail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_77_AircraftSpareParts1Detail_AircraftSpareParts1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.AircraftSpareParts1Detail)instance;
+            return that.AircraftSpareParts1Model;
+        }
+        private object get_78_AircraftSpareParts1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AircraftSpareParts1Detail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_79_AmmunitionsAndExplosives1Detail_AmmunitionsAndExplosives1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.AmmunitionsAndExplosives1Detail)instance;
+            return that.AmmunitionsAndExplosives1Model;
+        }
+        private object get_80_AmmunitionsAndExplosives1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AmmunitionsAndExplosives1Detail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_81_AnimalFeeds1Detail_AnimalFeeds1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.AnimalFeeds1Detail)instance;
+            return that.AnimalFeeds1Model;
+        }
+        private object get_82_AnimalFeeds1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.AnimalFeeds1Detail)instance;
+            return that.NavigationHelper;
+        }
+        private object get_83_Appliances1Detail_Appliances1Model(object instance)
+        {
+            var that = (global::AppStudio.Views.Appliances1Detail)instance;
+            return that.Appliances1Model;
+        }
+        private object get_84_Appliances1Detail_NavigationHelper(object instance)
+        {
+            var that = (global::AppStudio.Views.Appliances1Detail)instance;
             return that.NavigationHelper;
         }
 
@@ -1332,316 +1766,484 @@ namespace AppStudio.AppStudio_WindowsPhone_XamlTypeInfo
                 xamlMember.Getter = get_4_MainPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.TradingPage.TradingModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.TradingPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "TradingModel", "AppStudio.ViewModels.TradingViewModel");
-                xamlMember.Getter = get_5_TradingPage_TradingModel;
+            case "AppStudio.Views.AdvertisingAgencyServicesPage.AdvertisingAgencyServicesModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AdvertisingAgencyServicesPage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AdvertisingAgencyServicesModel", "AppStudio.ViewModels.AdvertisingAgencyServicesViewModel");
+                xamlMember.Getter = get_5_AdvertisingAgencyServicesPage_AdvertisingAgencyServicesModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.TradingPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.TradingPage");
+            case "AppStudio.Views.AdvertisingAgencyServicesPage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AdvertisingAgencyServicesPage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_6_TradingPage_NavigationHelper;
+                xamlMember.Getter = get_6_AdvertisingAgencyServicesPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ConsultancyPage.ConsultancyModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ConsultancyPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "ConsultancyModel", "AppStudio.ViewModels.ConsultancyViewModel");
-                xamlMember.Getter = get_7_ConsultancyPage_ConsultancyModel;
+            case "AppStudio.Views.AgriculturalChemicalsPage.AgriculturalChemicalsModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalChemicalsPage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalChemicalsModel", "AppStudio.ViewModels.AgriculturalChemicalsViewModel");
+                xamlMember.Getter = get_7_AgriculturalChemicalsPage_AgriculturalChemicalsModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ConsultancyPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ConsultancyPage");
+            case "AppStudio.Views.AgriculturalChemicalsPage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalChemicalsPage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_8_ConsultancyPage_NavigationHelper;
+                xamlMember.Getter = get_8_AgriculturalChemicalsPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.DistributorPage.DistributorModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.DistributorPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "DistributorModel", "AppStudio.ViewModels.DistributorViewModel");
-                xamlMember.Getter = get_9_DistributorPage_DistributorModel;
+            case "AppStudio.Views.AgriculturalMachineryAndEquPage.AgriculturalMachineryAndEquModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalMachineryAndEquPage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalMachineryAndEquModel", "AppStudio.ViewModels.AgriculturalMachineryAndEquViewModel");
+                xamlMember.Getter = get_9_AgriculturalMachineryAndEquPage_AgriculturalMachineryAndEquModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.DistributorPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.DistributorPage");
+            case "AppStudio.Views.AgriculturalMachineryAndEquPage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalMachineryAndEquPage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_10_DistributorPage_NavigationHelper;
+                xamlMember.Getter = get_10_AgriculturalMachineryAndEquPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ExecutiveSoleDistributorPage.ExecutiveSoleDistributorModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ExecutiveSoleDistributorPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "ExecutiveSoleDistributorModel", "AppStudio.ViewModels.ExecutiveSoleDistributorViewModel");
-                xamlMember.Getter = get_11_ExecutiveSoleDistributorPage_ExecutiveSoleDistributorModel;
+            case "AppStudio.Views.AgriculturalProductsPage.AgriculturalProductsModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalProductsPage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalProductsModel", "AppStudio.ViewModels.AgriculturalProductsViewModel");
+                xamlMember.Getter = get_11_AgriculturalProductsPage_AgriculturalProductsModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ExecutiveSoleDistributorPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ExecutiveSoleDistributorPage");
+            case "AppStudio.Views.AgriculturalProductsPage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalProductsPage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_12_ExecutiveSoleDistributorPage_NavigationHelper;
+                xamlMember.Getter = get_12_AgriculturalProductsPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.GeneralContractorPage.GeneralContractorModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.GeneralContractorPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "GeneralContractorModel", "AppStudio.ViewModels.GeneralContractorViewModel");
-                xamlMember.Getter = get_13_GeneralContractorPage_GeneralContractorModel;
+            case "AppStudio.Views.AirconditioningAndAirconditiPage.AirconditioningAndAirconditiModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningAndAirconditiPage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AirconditioningAndAirconditiModel", "AppStudio.ViewModels.AirconditioningAndAirconditiViewModel");
+                xamlMember.Getter = get_13_AirconditioningAndAirconditiPage_AirconditioningAndAirconditiModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.GeneralContractorPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.GeneralContractorPage");
+            case "AppStudio.Views.AirconditioningAndAirconditiPage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningAndAirconditiPage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_14_GeneralContractorPage_NavigationHelper;
+                xamlMember.Getter = get_14_AirconditioningAndAirconditiPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.GeneralMerchandisePage.GeneralMerchandiseModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.GeneralMerchandisePage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "GeneralMerchandiseModel", "AppStudio.ViewModels.GeneralMerchandiseViewModel");
-                xamlMember.Getter = get_15_GeneralMerchandisePage_GeneralMerchandiseModel;
+            case "AppStudio.Views.AirconditioningMaintenanceSePage.AirconditioningMaintenanceSeModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningMaintenanceSePage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AirconditioningMaintenanceSeModel", "AppStudio.ViewModels.AirconditioningMaintenanceSeViewModel");
+                xamlMember.Getter = get_15_AirconditioningMaintenanceSePage_AirconditioningMaintenanceSeModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.GeneralMerchandisePage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.GeneralMerchandisePage");
+            case "AppStudio.Views.AirconditioningMaintenanceSePage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningMaintenanceSePage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_16_GeneralMerchandisePage_NavigationHelper;
+                xamlMember.Getter = get_16_AirconditioningMaintenanceSePage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.InformationTechnologyPage.InformationTechnologyModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.InformationTechnologyPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "InformationTechnologyModel", "AppStudio.ViewModels.InformationTechnologyViewModel");
-                xamlMember.Getter = get_17_InformationTechnologyPage_InformationTechnologyModel;
+            case "AppStudio.Views.AircraftSparePartsPage.AircraftSparePartsModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AircraftSparePartsPage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AircraftSparePartsModel", "AppStudio.ViewModels.AircraftSparePartsViewModel");
+                xamlMember.Getter = get_17_AircraftSparePartsPage_AircraftSparePartsModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.InformationTechnologyPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.InformationTechnologyPage");
+            case "AppStudio.Views.AircraftSparePartsPage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AircraftSparePartsPage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_18_InformationTechnologyPage_NavigationHelper;
+                xamlMember.Getter = get_18_AircraftSparePartsPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ManufacturerPage.ManufacturerModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ManufacturerPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "ManufacturerModel", "AppStudio.ViewModels.ManufacturerViewModel");
-                xamlMember.Getter = get_19_ManufacturerPage_ManufacturerModel;
+            case "AppStudio.Views.AmmunitionsAndExplosivesPage.AmmunitionsAndExplosivesModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AmmunitionsAndExplosivesPage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AmmunitionsAndExplosivesModel", "AppStudio.ViewModels.AmmunitionsAndExplosivesViewModel");
+                xamlMember.Getter = get_19_AmmunitionsAndExplosivesPage_AmmunitionsAndExplosivesModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ManufacturerPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ManufacturerPage");
+            case "AppStudio.Views.AmmunitionsAndExplosivesPage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AmmunitionsAndExplosivesPage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_20_ManufacturerPage_NavigationHelper;
+                xamlMember.Getter = get_20_AmmunitionsAndExplosivesPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.NonGovernmentOrganizationPage.NonGovernmentOrganizationModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.NonGovernmentOrganizationPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NonGovernmentOrganizationModel", "AppStudio.ViewModels.NonGovernmentOrganizationViewModel");
-                xamlMember.Getter = get_21_NonGovernmentOrganizationPage_NonGovernmentOrganizationModel;
+            case "AppStudio.Views.AnimalFeedsPage.AnimalFeedsModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AnimalFeedsPage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AnimalFeedsModel", "AppStudio.ViewModels.AnimalFeedsViewModel");
+                xamlMember.Getter = get_21_AnimalFeedsPage_AnimalFeedsModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.NonGovernmentOrganizationPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.NonGovernmentOrganizationPage");
+            case "AppStudio.Views.AnimalFeedsPage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AnimalFeedsPage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_22_NonGovernmentOrganizationPage_NavigationHelper;
+                xamlMember.Getter = get_22_AnimalFeedsPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.OthersPage.OthersModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.OthersPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "OthersModel", "AppStudio.ViewModels.OthersViewModel");
-                xamlMember.Getter = get_23_OthersPage_OthersModel;
+            case "AppStudio.Views.AppliancesPage.AppliancesModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AppliancesPage");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AppliancesModel", "AppStudio.ViewModels.AppliancesViewModel");
+                xamlMember.Getter = get_23_AppliancesPage_AppliancesModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.OthersPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.OthersPage");
+            case "AppStudio.Views.AppliancesPage.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AppliancesPage");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_24_OthersPage_NavigationHelper;
+                xamlMember.Getter = get_24_AppliancesPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ServicesPage.ServicesModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ServicesPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "ServicesModel", "AppStudio.ViewModels.ServicesViewModel");
-                xamlMember.Getter = get_25_ServicesPage_ServicesModel;
+            case "AppStudio.Views.AdvertisingAgencyServices1Page.AdvertisingAgencyServices1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AdvertisingAgencyServices1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AdvertisingAgencyServices1Model", "AppStudio.ViewModels.AdvertisingAgencyServices1ViewModel");
+                xamlMember.Getter = get_25_AdvertisingAgencyServices1Page_AdvertisingAgencyServices1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ServicesPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ServicesPage");
+            case "AppStudio.Views.AdvertisingAgencyServices1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AdvertisingAgencyServices1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_26_ServicesPage_NavigationHelper;
+                xamlMember.Getter = get_26_AdvertisingAgencyServices1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.SystemIntegratorPage.SystemIntegratorModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.SystemIntegratorPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "SystemIntegratorModel", "AppStudio.ViewModels.SystemIntegratorViewModel");
-                xamlMember.Getter = get_27_SystemIntegratorPage_SystemIntegratorModel;
+            case "AppStudio.Views.AgriculturalChemicals1Page.AgriculturalChemicals1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalChemicals1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalChemicals1Model", "AppStudio.ViewModels.AgriculturalChemicals1ViewModel");
+                xamlMember.Getter = get_27_AgriculturalChemicals1Page_AgriculturalChemicals1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.SystemIntegratorPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.SystemIntegratorPage");
+            case "AppStudio.Views.AgriculturalChemicals1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalChemicals1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_28_SystemIntegratorPage_NavigationHelper;
+                xamlMember.Getter = get_28_AgriculturalChemicals1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.TelecommunicationsSolutionsPage.TelecommunicationsSolutionsModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.TelecommunicationsSolutionsPage");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "TelecommunicationsSolutionsModel", "AppStudio.ViewModels.TelecommunicationsSolutionsViewModel");
-                xamlMember.Getter = get_29_TelecommunicationsSolutionsPage_TelecommunicationsSolutionsModel;
+            case "AppStudio.Views.AgriculturalMachineryAndEqu1Page.AgriculturalMachineryAndEqu1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalMachineryAndEqu1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalMachineryAndEqu1Model", "AppStudio.ViewModels.AgriculturalMachineryAndEqu1ViewModel");
+                xamlMember.Getter = get_29_AgriculturalMachineryAndEqu1Page_AgriculturalMachineryAndEqu1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.TelecommunicationsSolutionsPage.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.TelecommunicationsSolutionsPage");
+            case "AppStudio.Views.AgriculturalMachineryAndEqu1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalMachineryAndEqu1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_30_TelecommunicationsSolutionsPage_NavigationHelper;
+                xamlMember.Getter = get_30_AgriculturalMachineryAndEqu1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.TradingDetail.TradingModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.TradingDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "TradingModel", "AppStudio.ViewModels.TradingViewModel");
-                xamlMember.Getter = get_31_TradingDetail_TradingModel;
+            case "AppStudio.Views.AgriculturalProducts1Page.AgriculturalProducts1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalProducts1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalProducts1Model", "AppStudio.ViewModels.AgriculturalProducts1ViewModel");
+                xamlMember.Getter = get_31_AgriculturalProducts1Page_AgriculturalProducts1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.TradingDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.TradingDetail");
+            case "AppStudio.Views.AgriculturalProducts1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalProducts1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_32_TradingDetail_NavigationHelper;
+                xamlMember.Getter = get_32_AgriculturalProducts1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ConsultancyDetail.ConsultancyModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ConsultancyDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "ConsultancyModel", "AppStudio.ViewModels.ConsultancyViewModel");
-                xamlMember.Getter = get_33_ConsultancyDetail_ConsultancyModel;
+            case "AppStudio.Views.AirconditioningAndAirconditi1Page.AirconditioningAndAirconditi1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningAndAirconditi1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AirconditioningAndAirconditi1Model", "AppStudio.ViewModels.AirconditioningAndAirconditi1ViewModel");
+                xamlMember.Getter = get_33_AirconditioningAndAirconditi1Page_AirconditioningAndAirconditi1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ConsultancyDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ConsultancyDetail");
+            case "AppStudio.Views.AirconditioningAndAirconditi1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningAndAirconditi1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_34_ConsultancyDetail_NavigationHelper;
+                xamlMember.Getter = get_34_AirconditioningAndAirconditi1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.DistributorDetail.DistributorModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.DistributorDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "DistributorModel", "AppStudio.ViewModels.DistributorViewModel");
-                xamlMember.Getter = get_35_DistributorDetail_DistributorModel;
+            case "AppStudio.Views.AirconditioningMaintenanceSe1Page.AirconditioningMaintenanceSe1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningMaintenanceSe1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AirconditioningMaintenanceSe1Model", "AppStudio.ViewModels.AirconditioningMaintenanceSe1ViewModel");
+                xamlMember.Getter = get_35_AirconditioningMaintenanceSe1Page_AirconditioningMaintenanceSe1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.DistributorDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.DistributorDetail");
+            case "AppStudio.Views.AirconditioningMaintenanceSe1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningMaintenanceSe1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_36_DistributorDetail_NavigationHelper;
+                xamlMember.Getter = get_36_AirconditioningMaintenanceSe1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ExecutiveSoleDistributorDetail.ExecutiveSoleDistributorModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ExecutiveSoleDistributorDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "ExecutiveSoleDistributorModel", "AppStudio.ViewModels.ExecutiveSoleDistributorViewModel");
-                xamlMember.Getter = get_37_ExecutiveSoleDistributorDetail_ExecutiveSoleDistributorModel;
+            case "AppStudio.Views.AircraftSpareParts1Page.AircraftSpareParts1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AircraftSpareParts1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AircraftSpareParts1Model", "AppStudio.ViewModels.AircraftSpareParts1ViewModel");
+                xamlMember.Getter = get_37_AircraftSpareParts1Page_AircraftSpareParts1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ExecutiveSoleDistributorDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ExecutiveSoleDistributorDetail");
+            case "AppStudio.Views.AircraftSpareParts1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AircraftSpareParts1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_38_ExecutiveSoleDistributorDetail_NavigationHelper;
+                xamlMember.Getter = get_38_AircraftSpareParts1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.GeneralContractorDetail.GeneralContractorModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.GeneralContractorDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "GeneralContractorModel", "AppStudio.ViewModels.GeneralContractorViewModel");
-                xamlMember.Getter = get_39_GeneralContractorDetail_GeneralContractorModel;
+            case "AppStudio.Views.AmmunitionsAndExplosives1Page.AmmunitionsAndExplosives1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AmmunitionsAndExplosives1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AmmunitionsAndExplosives1Model", "AppStudio.ViewModels.AmmunitionsAndExplosives1ViewModel");
+                xamlMember.Getter = get_39_AmmunitionsAndExplosives1Page_AmmunitionsAndExplosives1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.GeneralContractorDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.GeneralContractorDetail");
+            case "AppStudio.Views.AmmunitionsAndExplosives1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AmmunitionsAndExplosives1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_40_GeneralContractorDetail_NavigationHelper;
+                xamlMember.Getter = get_40_AmmunitionsAndExplosives1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.GeneralMerchandiseDetail.GeneralMerchandiseModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.GeneralMerchandiseDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "GeneralMerchandiseModel", "AppStudio.ViewModels.GeneralMerchandiseViewModel");
-                xamlMember.Getter = get_41_GeneralMerchandiseDetail_GeneralMerchandiseModel;
+            case "AppStudio.Views.AnimalFeeds1Page.AnimalFeeds1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AnimalFeeds1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AnimalFeeds1Model", "AppStudio.ViewModels.AnimalFeeds1ViewModel");
+                xamlMember.Getter = get_41_AnimalFeeds1Page_AnimalFeeds1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.GeneralMerchandiseDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.GeneralMerchandiseDetail");
+            case "AppStudio.Views.AnimalFeeds1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AnimalFeeds1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_42_GeneralMerchandiseDetail_NavigationHelper;
+                xamlMember.Getter = get_42_AnimalFeeds1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.InformationTechnologyDetail.InformationTechnologyModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.InformationTechnologyDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "InformationTechnologyModel", "AppStudio.ViewModels.InformationTechnologyViewModel");
-                xamlMember.Getter = get_43_InformationTechnologyDetail_InformationTechnologyModel;
+            case "AppStudio.Views.Appliances1Page.Appliances1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.Appliances1Page");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "Appliances1Model", "AppStudio.ViewModels.Appliances1ViewModel");
+                xamlMember.Getter = get_43_Appliances1Page_Appliances1Model;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.InformationTechnologyDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.InformationTechnologyDetail");
+            case "AppStudio.Views.Appliances1Page.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.Appliances1Page");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_44_InformationTechnologyDetail_NavigationHelper;
+                xamlMember.Getter = get_44_Appliances1Page_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ManufacturerDetail.ManufacturerModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ManufacturerDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "ManufacturerModel", "AppStudio.ViewModels.ManufacturerViewModel");
-                xamlMember.Getter = get_45_ManufacturerDetail_ManufacturerModel;
+            case "AppStudio.Views.AdvertisingAgencyServicesDetail.AdvertisingAgencyServicesModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AdvertisingAgencyServicesDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AdvertisingAgencyServicesModel", "AppStudio.ViewModels.AdvertisingAgencyServicesViewModel");
+                xamlMember.Getter = get_45_AdvertisingAgencyServicesDetail_AdvertisingAgencyServicesModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ManufacturerDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ManufacturerDetail");
+            case "AppStudio.Views.AdvertisingAgencyServicesDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AdvertisingAgencyServicesDetail");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_46_ManufacturerDetail_NavigationHelper;
+                xamlMember.Getter = get_46_AdvertisingAgencyServicesDetail_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.NonGovernmentOrganizationDetail.NonGovernmentOrganizationModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.NonGovernmentOrganizationDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NonGovernmentOrganizationModel", "AppStudio.ViewModels.NonGovernmentOrganizationViewModel");
-                xamlMember.Getter = get_47_NonGovernmentOrganizationDetail_NonGovernmentOrganizationModel;
+            case "AppStudio.Views.AgriculturalChemicalsDetail.AgriculturalChemicalsModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalChemicalsDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalChemicalsModel", "AppStudio.ViewModels.AgriculturalChemicalsViewModel");
+                xamlMember.Getter = get_47_AgriculturalChemicalsDetail_AgriculturalChemicalsModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.NonGovernmentOrganizationDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.NonGovernmentOrganizationDetail");
+            case "AppStudio.Views.AgriculturalChemicalsDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalChemicalsDetail");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_48_NonGovernmentOrganizationDetail_NavigationHelper;
+                xamlMember.Getter = get_48_AgriculturalChemicalsDetail_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.OthersDetail.OthersModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.OthersDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "OthersModel", "AppStudio.ViewModels.OthersViewModel");
-                xamlMember.Getter = get_49_OthersDetail_OthersModel;
+            case "AppStudio.Views.AgriculturalMachineryAndEquDetail.AgriculturalMachineryAndEquModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalMachineryAndEquDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalMachineryAndEquModel", "AppStudio.ViewModels.AgriculturalMachineryAndEquViewModel");
+                xamlMember.Getter = get_49_AgriculturalMachineryAndEquDetail_AgriculturalMachineryAndEquModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.OthersDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.OthersDetail");
+            case "AppStudio.Views.AgriculturalMachineryAndEquDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalMachineryAndEquDetail");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_50_OthersDetail_NavigationHelper;
+                xamlMember.Getter = get_50_AgriculturalMachineryAndEquDetail_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ServicesDetail.ServicesModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ServicesDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "ServicesModel", "AppStudio.ViewModels.ServicesViewModel");
-                xamlMember.Getter = get_51_ServicesDetail_ServicesModel;
+            case "AppStudio.Views.AgriculturalProductsDetail.AgriculturalProductsModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalProductsDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalProductsModel", "AppStudio.ViewModels.AgriculturalProductsViewModel");
+                xamlMember.Getter = get_51_AgriculturalProductsDetail_AgriculturalProductsModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.ServicesDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.ServicesDetail");
+            case "AppStudio.Views.AgriculturalProductsDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalProductsDetail");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_52_ServicesDetail_NavigationHelper;
+                xamlMember.Getter = get_52_AgriculturalProductsDetail_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.SystemIntegratorDetail.SystemIntegratorModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.SystemIntegratorDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "SystemIntegratorModel", "AppStudio.ViewModels.SystemIntegratorViewModel");
-                xamlMember.Getter = get_53_SystemIntegratorDetail_SystemIntegratorModel;
+            case "AppStudio.Views.AirconditioningAndAirconditiDetail.AirconditioningAndAirconditiModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningAndAirconditiDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AirconditioningAndAirconditiModel", "AppStudio.ViewModels.AirconditioningAndAirconditiViewModel");
+                xamlMember.Getter = get_53_AirconditioningAndAirconditiDetail_AirconditioningAndAirconditiModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.SystemIntegratorDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.SystemIntegratorDetail");
+            case "AppStudio.Views.AirconditioningAndAirconditiDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningAndAirconditiDetail");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_54_SystemIntegratorDetail_NavigationHelper;
+                xamlMember.Getter = get_54_AirconditioningAndAirconditiDetail_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.TelecommunicationsSolutionsDetail.TelecommunicationsSolutionsModel":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.TelecommunicationsSolutionsDetail");
-                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "TelecommunicationsSolutionsModel", "AppStudio.ViewModels.TelecommunicationsSolutionsViewModel");
-                xamlMember.Getter = get_55_TelecommunicationsSolutionsDetail_TelecommunicationsSolutionsModel;
+            case "AppStudio.Views.AirconditioningMaintenanceSeDetail.AirconditioningMaintenanceSeModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningMaintenanceSeDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AirconditioningMaintenanceSeModel", "AppStudio.ViewModels.AirconditioningMaintenanceSeViewModel");
+                xamlMember.Getter = get_55_AirconditioningMaintenanceSeDetail_AirconditioningMaintenanceSeModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "AppStudio.Views.TelecommunicationsSolutionsDetail.NavigationHelper":
-                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.TelecommunicationsSolutionsDetail");
+            case "AppStudio.Views.AirconditioningMaintenanceSeDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningMaintenanceSeDetail");
                 xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
-                xamlMember.Getter = get_56_TelecommunicationsSolutionsDetail_NavigationHelper;
+                xamlMember.Getter = get_56_AirconditioningMaintenanceSeDetail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AircraftSparePartsDetail.AircraftSparePartsModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AircraftSparePartsDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AircraftSparePartsModel", "AppStudio.ViewModels.AircraftSparePartsViewModel");
+                xamlMember.Getter = get_57_AircraftSparePartsDetail_AircraftSparePartsModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AircraftSparePartsDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AircraftSparePartsDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_58_AircraftSparePartsDetail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AmmunitionsAndExplosivesDetail.AmmunitionsAndExplosivesModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AmmunitionsAndExplosivesDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AmmunitionsAndExplosivesModel", "AppStudio.ViewModels.AmmunitionsAndExplosivesViewModel");
+                xamlMember.Getter = get_59_AmmunitionsAndExplosivesDetail_AmmunitionsAndExplosivesModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AmmunitionsAndExplosivesDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AmmunitionsAndExplosivesDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_60_AmmunitionsAndExplosivesDetail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AnimalFeedsDetail.AnimalFeedsModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AnimalFeedsDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AnimalFeedsModel", "AppStudio.ViewModels.AnimalFeedsViewModel");
+                xamlMember.Getter = get_61_AnimalFeedsDetail_AnimalFeedsModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AnimalFeedsDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AnimalFeedsDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_62_AnimalFeedsDetail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AppliancesDetail.AppliancesModel":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AppliancesDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AppliancesModel", "AppStudio.ViewModels.AppliancesViewModel");
+                xamlMember.Getter = get_63_AppliancesDetail_AppliancesModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AppliancesDetail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AppliancesDetail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_64_AppliancesDetail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AdvertisingAgencyServices1Detail.AdvertisingAgencyServices1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AdvertisingAgencyServices1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AdvertisingAgencyServices1Model", "AppStudio.ViewModels.AdvertisingAgencyServices1ViewModel");
+                xamlMember.Getter = get_65_AdvertisingAgencyServices1Detail_AdvertisingAgencyServices1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AdvertisingAgencyServices1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AdvertisingAgencyServices1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_66_AdvertisingAgencyServices1Detail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AgriculturalChemicals1Detail.AgriculturalChemicals1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalChemicals1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalChemicals1Model", "AppStudio.ViewModels.AgriculturalChemicals1ViewModel");
+                xamlMember.Getter = get_67_AgriculturalChemicals1Detail_AgriculturalChemicals1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AgriculturalChemicals1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalChemicals1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_68_AgriculturalChemicals1Detail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AgriculturalMachineryAndEqu1Detail.AgriculturalMachineryAndEqu1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalMachineryAndEqu1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalMachineryAndEqu1Model", "AppStudio.ViewModels.AgriculturalMachineryAndEqu1ViewModel");
+                xamlMember.Getter = get_69_AgriculturalMachineryAndEqu1Detail_AgriculturalMachineryAndEqu1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AgriculturalMachineryAndEqu1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalMachineryAndEqu1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_70_AgriculturalMachineryAndEqu1Detail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AgriculturalProducts1Detail.AgriculturalProducts1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalProducts1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AgriculturalProducts1Model", "AppStudio.ViewModels.AgriculturalProducts1ViewModel");
+                xamlMember.Getter = get_71_AgriculturalProducts1Detail_AgriculturalProducts1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AgriculturalProducts1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AgriculturalProducts1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_72_AgriculturalProducts1Detail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AirconditioningAndAirconditi1Detail.AirconditioningAndAirconditi1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningAndAirconditi1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AirconditioningAndAirconditi1Model", "AppStudio.ViewModels.AirconditioningAndAirconditi1ViewModel");
+                xamlMember.Getter = get_73_AirconditioningAndAirconditi1Detail_AirconditioningAndAirconditi1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AirconditioningAndAirconditi1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningAndAirconditi1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_74_AirconditioningAndAirconditi1Detail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AirconditioningMaintenanceSe1Detail.AirconditioningMaintenanceSe1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningMaintenanceSe1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AirconditioningMaintenanceSe1Model", "AppStudio.ViewModels.AirconditioningMaintenanceSe1ViewModel");
+                xamlMember.Getter = get_75_AirconditioningMaintenanceSe1Detail_AirconditioningMaintenanceSe1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AirconditioningMaintenanceSe1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AirconditioningMaintenanceSe1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_76_AirconditioningMaintenanceSe1Detail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AircraftSpareParts1Detail.AircraftSpareParts1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AircraftSpareParts1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AircraftSpareParts1Model", "AppStudio.ViewModels.AircraftSpareParts1ViewModel");
+                xamlMember.Getter = get_77_AircraftSpareParts1Detail_AircraftSpareParts1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AircraftSpareParts1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AircraftSpareParts1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_78_AircraftSpareParts1Detail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AmmunitionsAndExplosives1Detail.AmmunitionsAndExplosives1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AmmunitionsAndExplosives1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AmmunitionsAndExplosives1Model", "AppStudio.ViewModels.AmmunitionsAndExplosives1ViewModel");
+                xamlMember.Getter = get_79_AmmunitionsAndExplosives1Detail_AmmunitionsAndExplosives1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AmmunitionsAndExplosives1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AmmunitionsAndExplosives1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_80_AmmunitionsAndExplosives1Detail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AnimalFeeds1Detail.AnimalFeeds1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AnimalFeeds1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "AnimalFeeds1Model", "AppStudio.ViewModels.AnimalFeeds1ViewModel");
+                xamlMember.Getter = get_81_AnimalFeeds1Detail_AnimalFeeds1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.AnimalFeeds1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.AnimalFeeds1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_82_AnimalFeeds1Detail_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.Appliances1Detail.Appliances1Model":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.Appliances1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "Appliances1Model", "AppStudio.ViewModels.Appliances1ViewModel");
+                xamlMember.Getter = get_83_Appliances1Detail_Appliances1Model;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "AppStudio.Views.Appliances1Detail.NavigationHelper":
+                userType = (global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Views.Appliances1Detail");
+                xamlMember = new global::AppStudio.AppStudio_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "AppStudio.NavigationHelper");
+                xamlMember.Getter = get_84_Appliances1Detail_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

@@ -1,0 +1,46 @@
+{
+  "Items": [
+    {
+      "classification": "",
+      "closingtime": "25/11/2014 1:00AM",
+      "price": "PHP 27,000.00",
+      "contactperson": "Nelida J. Conlu",
+      "deliveryperiod": "1 Day",
+      "email": "nelidaconlu@gmail.com",
+      "procuringentity": "DEPARTMENT OF AGRARIAN REFORM-ILOILO PROVINCIAL OFFICE",
+      "referencenumber": "2943299",
+      "address": "Luna St., St. Clement's Compound, Lapaz, Iloilo City, Iloilo",
+      "description": "Publication materlist 14-11-731",
+      "contact": "+63333300672",
+      "_id": "7434b029-abeb-47a1-95c1-451a6aa17f3e"
+    },
+    {
+      "classification": "",
+      "closingtime": "04/12/2014 11:00AM",
+      "price": "PHP 12,000,000.00",
+      "contactperson": "Wilfredo V. Alcoriza",
+      "deliveryperiod": "",
+      "email": "wilcorzky@yahoo.com",
+      "procuringentity": "PHILIPPINE INTERNATIONAL CONVENTION CENTER",
+      "referencenumber": "",
+      "address": "CCP Complex, Roxas Blvd., Pasay City, Metro Manila",
+      "description": "REQUEST FOR EXPRESSION OF INTEREST TO NEGOTIATE PROCUREMENT OF CONSULTING SERVICES OF AN ADVERTISING AGENCY/PUBLIC RELATIONS AGENCY/MEDIA OUTFIT",
+      "contact": "+6325516873",
+      "_id": "58e7a890-b867-40d2-8a41-3d4ccdf1064b"
+    },
+    {
+      "classification": "",
+      "closingtime": "25/11/2014 10:00AM",
+      "price": "PHP 88,000.00",
+      "contactperson": "Eddy C. Dizon",
+      "deliveryperiod": "",
+      "email": "rod_rhonm@yahoo.com",
+      "procuringentity": "PROVINCE OF OCCIDENTAL MINDORO",
+      "referencenumber": "",
+      "address": "General Services Office, Groundfloor Bldg., Capitol Main Bldg. Mamburao Occidental Mindoro ",
+      "description": "RFQ-Newsletter lost page (full colored). PGO",
+      "contact": "+63437115000",
+      "_id": "a671ffa7-1807-4b35-b530-8e9af136bce3"
+    }
+  ]
+}

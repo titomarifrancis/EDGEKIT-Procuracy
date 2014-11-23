@@ -1,0 +1,64 @@
+{
+  "Items": [
+    {
+      "Type": "Section",
+      "Title": "Advertising Agency Services",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AdvertisingAgencyServicesPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Agricultural Chemicals",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AgriculturalChemicalsPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Agricultural Machinery and Equ",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AgriculturalMachineryAndEquPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Agricultural Products ",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AgriculturalProductsPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Airconditioning and Airconditi",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AirconditioningAndAirconditiPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Airconditioning Maintenance Se",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AirconditioningMaintenanceSePage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Aircraft Spare Parts",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AircraftSparePartsPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Ammunitions and Explosives",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AmmunitionsAndExplosivesPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Animal Feeds",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AnimalFeedsPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Appliances",
+      "Icon": "/Assets/DataImages/menuitem-icon.png",
+      "Target": "AppliancesPage"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{fc57d4fd-7791-4623-af15-9b4da6c428ef}</ProjectGuid>
+    <ProjectGuid>{5dddab7d-88a6-466d-802e-1e8bad986250}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AppStudio</RootNamespace>
@@ -114,20 +114,28 @@
     <Content Include="Assets\AppBar\Refresh.png" />
     <Content Include="Assets\AppBar\TextToSpeech.png" />
     <Content Include="Assets\BadgeLogo.png" />
-    <Content Include="Views\DataTemplates\SupplierOrganizationViews.xaml" />
-    <Content Include="Views\DataTemplates\TradingViews.xaml" />
-    <Content Include="Views\DataTemplates\ConsultancyViews.xaml" />
-    <Content Include="Views\DataTemplates\DistributorViews.xaml" />
-    <Content Include="Views\DataTemplates\ExecutiveSoleDistributorViews.xaml" />
-    <Content Include="Views\DataTemplates\GeneralContractorViews.xaml" />
-    <Content Include="Views\DataTemplates\GeneralMerchandiseViews.xaml" />
-    <Content Include="Views\DataTemplates\InformationTechnologyViews.xaml" />
-    <Content Include="Views\DataTemplates\ManufacturerViews.xaml" />
-    <Content Include="Views\DataTemplates\NonGovernmentOrganizationViews.xaml" />
-    <Content Include="Views\DataTemplates\OthersViews.xaml" />
-    <Content Include="Views\DataTemplates\ServicesViews.xaml" />
-    <Content Include="Views\DataTemplates\SystemIntegratorViews.xaml" />
-    <Content Include="Views\DataTemplates\TelecommunicationsSolutionsViews.xaml" />
+    <Content Include="Views\DataTemplates\OpenOpportunitiesViews.xaml" />
+    <Content Include="Views\DataTemplates\AdvertisingAgencyServicesViews.xaml" />
+    <Content Include="Views\DataTemplates\AgriculturalChemicalsViews.xaml" />
+    <Content Include="Views\DataTemplates\AgriculturalMachineryAndEquViews.xaml" />
+    <Content Include="Views\DataTemplates\AgriculturalProductsViews.xaml" />
+    <Content Include="Views\DataTemplates\AirconditioningAndAirconditiViews.xaml" />
+    <Content Include="Views\DataTemplates\AirconditioningMaintenanceSeViews.xaml" />
+    <Content Include="Views\DataTemplates\AircraftSparePartsViews.xaml" />
+    <Content Include="Views\DataTemplates\AmmunitionsAndExplosivesViews.xaml" />
+    <Content Include="Views\DataTemplates\AnimalFeedsViews.xaml" />
+    <Content Include="Views\DataTemplates\AppliancesViews.xaml" />
+    <Content Include="Views\DataTemplates\RecentAwardViews.xaml" />
+    <Content Include="Views\DataTemplates\AdvertisingAgencyServices1Views.xaml" />
+    <Content Include="Views\DataTemplates\AgriculturalChemicals1Views.xaml" />
+    <Content Include="Views\DataTemplates\AgriculturalMachineryAndEqu1Views.xaml" />
+    <Content Include="Views\DataTemplates\AgriculturalProducts1Views.xaml" />
+    <Content Include="Views\DataTemplates\AirconditioningAndAirconditi1Views.xaml" />
+    <Content Include="Views\DataTemplates\AirconditioningMaintenanceSe1Views.xaml" />
+    <Content Include="Views\DataTemplates\AircraftSpareParts1Views.xaml" />
+    <Content Include="Views\DataTemplates\AmmunitionsAndExplosives1Views.xaml" />
+    <Content Include="Views\DataTemplates\AnimalFeeds1Views.xaml" />
+    <Content Include="Views\DataTemplates\Appliances1Views.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\SplashScreen.scale-100.png" />
@@ -151,122 +159,185 @@
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\TradingPage.xaml.cs">
-      <DependentUpon>TradingPage.xaml</DependentUpon>
+    <Compile Include="Views\AdvertisingAgencyServicesPage.xaml.cs">
+      <DependentUpon>AdvertisingAgencyServicesPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ConsultancyPage.xaml.cs">
-      <DependentUpon>ConsultancyPage.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalChemicalsPage.xaml.cs">
+      <DependentUpon>AgriculturalChemicalsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DistributorPage.xaml.cs">
-      <DependentUpon>DistributorPage.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalMachineryAndEquPage.xaml.cs">
+      <DependentUpon>AgriculturalMachineryAndEquPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ExecutiveSoleDistributorPage.xaml.cs">
-      <DependentUpon>ExecutiveSoleDistributorPage.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalProductsPage.xaml.cs">
+      <DependentUpon>AgriculturalProductsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\GeneralContractorPage.xaml.cs">
-      <DependentUpon>GeneralContractorPage.xaml</DependentUpon>
+    <Compile Include="Views\AirconditioningAndAirconditiPage.xaml.cs">
+      <DependentUpon>AirconditioningAndAirconditiPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\GeneralMerchandisePage.xaml.cs">
-      <DependentUpon>GeneralMerchandisePage.xaml</DependentUpon>
+    <Compile Include="Views\AirconditioningMaintenanceSePage.xaml.cs">
+      <DependentUpon>AirconditioningMaintenanceSePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\InformationTechnologyPage.xaml.cs">
-      <DependentUpon>InformationTechnologyPage.xaml</DependentUpon>
+    <Compile Include="Views\AircraftSparePartsPage.xaml.cs">
+      <DependentUpon>AircraftSparePartsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ManufacturerPage.xaml.cs">
-      <DependentUpon>ManufacturerPage.xaml</DependentUpon>
+    <Compile Include="Views\AmmunitionsAndExplosivesPage.xaml.cs">
+      <DependentUpon>AmmunitionsAndExplosivesPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\NonGovernmentOrganizationPage.xaml.cs">
-      <DependentUpon>NonGovernmentOrganizationPage.xaml</DependentUpon>
+    <Compile Include="Views\AnimalFeedsPage.xaml.cs">
+      <DependentUpon>AnimalFeedsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\OthersPage.xaml.cs">
-      <DependentUpon>OthersPage.xaml</DependentUpon>
+    <Compile Include="Views\AppliancesPage.xaml.cs">
+      <DependentUpon>AppliancesPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ServicesPage.xaml.cs">
-      <DependentUpon>ServicesPage.xaml</DependentUpon>
+    <Compile Include="Views\AdvertisingAgencyServices1Page.xaml.cs">
+      <DependentUpon>AdvertisingAgencyServices1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\SystemIntegratorPage.xaml.cs">
-      <DependentUpon>SystemIntegratorPage.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalChemicals1Page.xaml.cs">
+      <DependentUpon>AgriculturalChemicals1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\TelecommunicationsSolutionsPage.xaml.cs">
-      <DependentUpon>TelecommunicationsSolutionsPage.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalMachineryAndEqu1Page.xaml.cs">
+      <DependentUpon>AgriculturalMachineryAndEqu1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\TradingList.xaml.cs">
-      <DependentUpon>TradingList.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalProducts1Page.xaml.cs">
+      <DependentUpon>AgriculturalProducts1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ConsultancyList.xaml.cs">
-      <DependentUpon>ConsultancyList.xaml</DependentUpon>
+    <Compile Include="Views\AirconditioningAndAirconditi1Page.xaml.cs">
+      <DependentUpon>AirconditioningAndAirconditi1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DistributorList.xaml.cs">
-      <DependentUpon>DistributorList.xaml</DependentUpon>
+    <Compile Include="Views\AirconditioningMaintenanceSe1Page.xaml.cs">
+      <DependentUpon>AirconditioningMaintenanceSe1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ExecutiveSoleDistributorList.xaml.cs">
-      <DependentUpon>ExecutiveSoleDistributorList.xaml</DependentUpon>
+    <Compile Include="Views\AircraftSpareParts1Page.xaml.cs">
+      <DependentUpon>AircraftSpareParts1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\GeneralContractorList.xaml.cs">
-      <DependentUpon>GeneralContractorList.xaml</DependentUpon>
+    <Compile Include="Views\AmmunitionsAndExplosives1Page.xaml.cs">
+      <DependentUpon>AmmunitionsAndExplosives1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\GeneralMerchandiseList.xaml.cs">
-      <DependentUpon>GeneralMerchandiseList.xaml</DependentUpon>
+    <Compile Include="Views\AnimalFeeds1Page.xaml.cs">
+      <DependentUpon>AnimalFeeds1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\InformationTechnologyList.xaml.cs">
-      <DependentUpon>InformationTechnologyList.xaml</DependentUpon>
+    <Compile Include="Views\Appliances1Page.xaml.cs">
+      <DependentUpon>Appliances1Page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ManufacturerList.xaml.cs">
-      <DependentUpon>ManufacturerList.xaml</DependentUpon>
+    <Compile Include="Views\AdvertisingAgencyServicesList.xaml.cs">
+      <DependentUpon>AdvertisingAgencyServicesList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\NonGovernmentOrganizationList.xaml.cs">
-      <DependentUpon>NonGovernmentOrganizationList.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalChemicalsList.xaml.cs">
+      <DependentUpon>AgriculturalChemicalsList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\OthersList.xaml.cs">
-      <DependentUpon>OthersList.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalMachineryAndEquList.xaml.cs">
+      <DependentUpon>AgriculturalMachineryAndEquList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ServicesList.xaml.cs">
-      <DependentUpon>ServicesList.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalProductsList.xaml.cs">
+      <DependentUpon>AgriculturalProductsList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\SystemIntegratorList.xaml.cs">
-      <DependentUpon>SystemIntegratorList.xaml</DependentUpon>
+    <Compile Include="Views\AirconditioningAndAirconditiList.xaml.cs">
+      <DependentUpon>AirconditioningAndAirconditiList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\TelecommunicationsSolutionsList.xaml.cs">
-      <DependentUpon>TelecommunicationsSolutionsList.xaml</DependentUpon>
+    <Compile Include="Views\AirconditioningMaintenanceSeList.xaml.cs">
+      <DependentUpon>AirconditioningMaintenanceSeList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\TradingDetailPage.xaml.cs">
-      <DependentUpon>TradingDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AircraftSparePartsList.xaml.cs">
+      <DependentUpon>AircraftSparePartsList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ConsultancyDetailPage.xaml.cs">
-      <DependentUpon>ConsultancyDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AmmunitionsAndExplosivesList.xaml.cs">
+      <DependentUpon>AmmunitionsAndExplosivesList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DistributorDetailPage.xaml.cs">
-      <DependentUpon>DistributorDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AnimalFeedsList.xaml.cs">
+      <DependentUpon>AnimalFeedsList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ExecutiveSoleDistributorDetailPage.xaml.cs">
-      <DependentUpon>ExecutiveSoleDistributorDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AppliancesList.xaml.cs">
+      <DependentUpon>AppliancesList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\GeneralContractorDetailPage.xaml.cs">
-      <DependentUpon>GeneralContractorDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AdvertisingAgencyServicesDetailPage.xaml.cs">
+      <DependentUpon>AdvertisingAgencyServicesDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\GeneralMerchandiseDetailPage.xaml.cs">
-      <DependentUpon>GeneralMerchandiseDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalChemicalsDetailPage.xaml.cs">
+      <DependentUpon>AgriculturalChemicalsDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\InformationTechnologyDetailPage.xaml.cs">
-      <DependentUpon>InformationTechnologyDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalMachineryAndEquDetailPage.xaml.cs">
+      <DependentUpon>AgriculturalMachineryAndEquDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ManufacturerDetailPage.xaml.cs">
-      <DependentUpon>ManufacturerDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AgriculturalProductsDetailPage.xaml.cs">
+      <DependentUpon>AgriculturalProductsDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\NonGovernmentOrganizationDetailPage.xaml.cs">
-      <DependentUpon>NonGovernmentOrganizationDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AirconditioningAndAirconditiDetailPage.xaml.cs">
+      <DependentUpon>AirconditioningAndAirconditiDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\OthersDetailPage.xaml.cs">
-      <DependentUpon>OthersDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AirconditioningMaintenanceSeDetailPage.xaml.cs">
+      <DependentUpon>AirconditioningMaintenanceSeDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ServicesDetailPage.xaml.cs">
-      <DependentUpon>ServicesDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AircraftSparePartsDetailPage.xaml.cs">
+      <DependentUpon>AircraftSparePartsDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\SystemIntegratorDetailPage.xaml.cs">
-      <DependentUpon>SystemIntegratorDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AmmunitionsAndExplosivesDetailPage.xaml.cs">
+      <DependentUpon>AmmunitionsAndExplosivesDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\TelecommunicationsSolutionsDetailPage.xaml.cs">
-      <DependentUpon>TelecommunicationsSolutionsDetailPage.xaml</DependentUpon>
+    <Compile Include="Views\AnimalFeedsDetailPage.xaml.cs">
+      <DependentUpon>AnimalFeedsDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AppliancesDetailPage.xaml.cs">
+      <DependentUpon>AppliancesDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdvertisingAgencyServices1List.xaml.cs">
+      <DependentUpon>AdvertisingAgencyServices1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AgriculturalChemicals1List.xaml.cs">
+      <DependentUpon>AgriculturalChemicals1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AgriculturalMachineryAndEqu1List.xaml.cs">
+      <DependentUpon>AgriculturalMachineryAndEqu1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AgriculturalProducts1List.xaml.cs">
+      <DependentUpon>AgriculturalProducts1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AirconditioningAndAirconditi1List.xaml.cs">
+      <DependentUpon>AirconditioningAndAirconditi1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AirconditioningMaintenanceSe1List.xaml.cs">
+      <DependentUpon>AirconditioningMaintenanceSe1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AircraftSpareParts1List.xaml.cs">
+      <DependentUpon>AircraftSpareParts1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AmmunitionsAndExplosives1List.xaml.cs">
+      <DependentUpon>AmmunitionsAndExplosives1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AnimalFeeds1List.xaml.cs">
+      <DependentUpon>AnimalFeeds1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Appliances1List.xaml.cs">
+      <DependentUpon>Appliances1List.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdvertisingAgencyServices1DetailPage.xaml.cs">
+      <DependentUpon>AdvertisingAgencyServices1DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AgriculturalChemicals1DetailPage.xaml.cs">
+      <DependentUpon>AgriculturalChemicals1DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AgriculturalMachineryAndEqu1DetailPage.xaml.cs">
+      <DependentUpon>AgriculturalMachineryAndEqu1DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AgriculturalProducts1DetailPage.xaml.cs">
+      <DependentUpon>AgriculturalProducts1DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AirconditioningAndAirconditi1DetailPage.xaml.cs">
+      <DependentUpon>AirconditioningAndAirconditi1DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AirconditioningMaintenanceSe1DetailPage.xaml.cs">
+      <DependentUpon>AirconditioningMaintenanceSe1DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AircraftSpareParts1DetailPage.xaml.cs">
+      <DependentUpon>AircraftSpareParts1DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AmmunitionsAndExplosives1DetailPage.xaml.cs">
+      <DependentUpon>AmmunitionsAndExplosives1DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AnimalFeeds1DetailPage.xaml.cs">
+      <DependentUpon>AnimalFeeds1DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Appliances1DetailPage.xaml.cs">
+      <DependentUpon>Appliances1DetailPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -282,159 +353,243 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\TradingPage.xaml">
+    <Page Include="Views\AdvertisingAgencyServicesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ConsultancyPage.xaml">
+    <Page Include="Views\AgriculturalChemicalsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\DistributorPage.xaml">
+    <Page Include="Views\AgriculturalMachineryAndEquPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ExecutiveSoleDistributorPage.xaml">
+    <Page Include="Views\AgriculturalProductsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\GeneralContractorPage.xaml">
+    <Page Include="Views\AirconditioningAndAirconditiPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\GeneralMerchandisePage.xaml">
+    <Page Include="Views\AirconditioningMaintenanceSePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\InformationTechnologyPage.xaml">
+    <Page Include="Views\AircraftSparePartsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ManufacturerPage.xaml">
+    <Page Include="Views\AmmunitionsAndExplosivesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\NonGovernmentOrganizationPage.xaml">
+    <Page Include="Views\AnimalFeedsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\OthersPage.xaml">
+    <Page Include="Views\AppliancesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ServicesPage.xaml">
+    <Page Include="Views\AdvertisingAgencyServices1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\SystemIntegratorPage.xaml">
+    <Page Include="Views\AgriculturalChemicals1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\TelecommunicationsSolutionsPage.xaml">
+    <Page Include="Views\AgriculturalMachineryAndEqu1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\TradingList.xaml">
+    <Page Include="Views\AgriculturalProducts1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ConsultancyList.xaml">
+    <Page Include="Views\AirconditioningAndAirconditi1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\DistributorList.xaml">
+    <Page Include="Views\AirconditioningMaintenanceSe1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ExecutiveSoleDistributorList.xaml">
+    <Page Include="Views\AircraftSpareParts1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\GeneralContractorList.xaml">
+    <Page Include="Views\AmmunitionsAndExplosives1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\GeneralMerchandiseList.xaml">
+    <Page Include="Views\AnimalFeeds1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\InformationTechnologyList.xaml">
+    <Page Include="Views\Appliances1Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ManufacturerList.xaml">
+    <Page Include="Views\AdvertisingAgencyServicesList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\NonGovernmentOrganizationList.xaml">
+    <Page Include="Views\AgriculturalChemicalsList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\OthersList.xaml">
+    <Page Include="Views\AgriculturalMachineryAndEquList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ServicesList.xaml">
+    <Page Include="Views\AgriculturalProductsList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\SystemIntegratorList.xaml">
+    <Page Include="Views\AirconditioningAndAirconditiList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\TelecommunicationsSolutionsList.xaml">
+    <Page Include="Views\AirconditioningMaintenanceSeList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\TradingDetailPage.xaml">
+    <Page Include="Views\AircraftSparePartsList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ConsultancyDetailPage.xaml">
+    <Page Include="Views\AmmunitionsAndExplosivesList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\DistributorDetailPage.xaml">
+    <Page Include="Views\AnimalFeedsList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ExecutiveSoleDistributorDetailPage.xaml">
+    <Page Include="Views\AppliancesList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\GeneralContractorDetailPage.xaml">
+    <Page Include="Views\AdvertisingAgencyServicesDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\GeneralMerchandiseDetailPage.xaml">
+    <Page Include="Views\AgriculturalChemicalsDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\InformationTechnologyDetailPage.xaml">
+    <Page Include="Views\AgriculturalMachineryAndEquDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ManufacturerDetailPage.xaml">
+    <Page Include="Views\AgriculturalProductsDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\NonGovernmentOrganizationDetailPage.xaml">
+    <Page Include="Views\AirconditioningAndAirconditiDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\OthersDetailPage.xaml">
+    <Page Include="Views\AirconditioningMaintenanceSeDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ServicesDetailPage.xaml">
+    <Page Include="Views\AircraftSparePartsDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\SystemIntegratorDetailPage.xaml">
+    <Page Include="Views\AmmunitionsAndExplosivesDetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\TelecommunicationsSolutionsDetailPage.xaml">
+    <Page Include="Views\AnimalFeedsDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AppliancesDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AdvertisingAgencyServices1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AgriculturalChemicals1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AgriculturalMachineryAndEqu1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AgriculturalProducts1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AirconditioningAndAirconditi1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AirconditioningMaintenanceSe1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AircraftSpareParts1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AmmunitionsAndExplosives1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AnimalFeeds1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Appliances1List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AdvertisingAgencyServices1DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AgriculturalChemicals1DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AgriculturalMachineryAndEqu1DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AgriculturalProducts1DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AirconditioningAndAirconditi1DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AirconditioningMaintenanceSe1DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AircraftSpareParts1DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AmmunitionsAndExplosives1DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AnimalFeeds1DetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Appliances1DetailPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -483,7 +638,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppStudio.Data\AppStudio.Data.csproj">
-      <Project>{521f8dac-8545-4644-bee6-5bae5d544c20}</Project>
+      <Project>{c464cd3b-92c1-46c2-873b-df4def7402bd}</Project>
       <Name>AppStudio.Data</Name>
     </ProjectReference>
   </ItemGroup>

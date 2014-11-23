@@ -17,20 +17,28 @@
         <ResourceDictionary Source="Styles/ButtonStyles.xaml"/>
         <ResourceDictionary Source="Styles/ControlStyles.xaml"/>
         <!-- Application DataTemplate imports -->
-        <ResourceDictionary Source="Views/DataTemplates/SupplierOrganizationViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/TradingViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/ConsultancyViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/DistributorViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/ExecutiveSoleDistributorViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/GeneralContractorViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/GeneralMerchandiseViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/InformationTechnologyViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/ManufacturerViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/NonGovernmentOrganizationViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/OthersViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/ServicesViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/SystemIntegratorViews.xaml"/>
-        <ResourceDictionary Source="Views/DataTemplates/TelecommunicationsSolutionsViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/OpenOpportunitiesViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AdvertisingAgencyServicesViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AgriculturalChemicalsViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AgriculturalMachineryAndEquViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AgriculturalProductsViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AirconditioningAndAirconditiViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AirconditioningMaintenanceSeViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AircraftSparePartsViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AmmunitionsAndExplosivesViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AnimalFeedsViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AppliancesViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/RecentAwardViews.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AdvertisingAgencyServices1Views.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AgriculturalChemicals1Views.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AgriculturalMachineryAndEqu1Views.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AgriculturalProducts1Views.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AirconditioningAndAirconditi1Views.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AirconditioningMaintenanceSe1Views.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AircraftSpareParts1Views.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AmmunitionsAndExplosives1Views.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/AnimalFeeds1Views.xaml"/>
+        <ResourceDictionary Source="Views/DataTemplates/Appliances1Views.xaml"/>
       </ResourceDictionary.MergedDictionaries>
 
       <ResourceDictionary.ThemeDictionaries>
@@ -39,8 +47,8 @@
         </ResourceDictionary>
       </ResourceDictionary.ThemeDictionaries>
 
-      <x:String x:Key="AppName">PhilGEPS</x:String>
-      <x:String x:Key="AppTitle">PhilGEPS</x:String>
+      <x:String x:Key="AppName">Procuracy</x:String>
+      <x:String x:Key="AppTitle">Procuracy</x:String>
 
       <!-- Html2Xaml -->
       <html2xaml:Properties x:Key="Properties"/>

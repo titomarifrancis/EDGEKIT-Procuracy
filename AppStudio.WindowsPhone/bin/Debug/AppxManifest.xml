@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="7fe9a3dd-53ac-4ec5-a9ae-0d349050e8b6" Publisher="CN=AppStudio" Version="1.0.4.0" ProcessorArchitecture="neutral" />
+  <Identity Name="a382d5fc-6822-4a7a-93be-fb340db76f92" Publisher="CN=AppStudio" Version="1.0.12.0" ProcessorArchitecture="neutral" />
   <mp:PhoneIdentity PhoneProductId="c2ebbcd7-64df-4118-96f4-1bf314b97ae3" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>AppStudio App</DisplayName>
@@ -23,8 +23,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="AppStudio.exe" EntryPoint="AppStudio.App">
-      <m3:VisualElements DisplayName="PhilGEPS" Description="Use this to create an app from scratch." Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" ForegroundText="light" BackgroundColor="transparent">
-        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png" ShortName="PhilGEPS">
+      <m3:VisualElements DisplayName="Procuracy" Description="Use this to create an app from scratch." Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png" ShortName="Procuracy">
           <m3:ShowNameOnTiles>
             <m3:ShowOn Tile="square150x150Logo" />
             <m3:ShowOn Tile="wide310x150Logo" />
@@ -60,7 +60,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2013" />
     <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.31101.0" />
-    <build:Item Name="ProjectGUID" Value="{dbcbd792-b867-48ee-9e92-b9828d0eb2f7}" />
+    <build:Item Name="ProjectGUID" Value="{68870369-73e4-4bd4-81c4-897ce7b767eb}" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="12.0.30501.0" />
     <build:Item Name="BehaviorsXamlSDKManaged" Version="12.0" />
     <build:Item Name="Microsoft.Advertising.Mobile.Display" Version="8.1" />

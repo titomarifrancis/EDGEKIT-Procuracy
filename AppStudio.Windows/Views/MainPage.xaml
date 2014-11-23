@@ -16,17 +16,23 @@
     </Grid.ChildrenTransitions>
 
     <Hub x:Name="Container"  DataContext="{Binding}" Header="{Binding NavigationHelper}" HeaderTemplate="{StaticResource PageHeader}" SectionHeaderClick="OnSectionHeaderClick" Style="{StaticResource AppHubStyle}" SectionsInViewChanged="OnSectionsInViewChanged">
-      <HubSection x:Name="SupplierOrganizationSection" Header="Supplier Organization" DataContext="{Binding MainViewModel.SupplierOrganizationModel}" 
-                  d:DataContext="{d:DesignData Source=/Assets/Data/SupplierOrganizationDataSource.json, Type=vm:SupplierOrganizationViewModel, IsDesignTimeCreatable=true}"
-                  ContentTemplate="{StaticResource SupplierOrganizationList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="OpenOpportunitiesSection" Header="Open Opportunities" DataContext="{Binding MainViewModel.OpenOpportunitiesModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/OpenOpportunitiesDataSource.json, Type=vm:OpenOpportunitiesViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource OpenOpportunitiesList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
+      <HubSection x:Name="RecentAwardSection" Header="Recent Award" DataContext="{Binding MainViewModel.RecentAwardModel}" 
+                  d:DataContext="{d:DesignData Source=/Assets/Data/RecentAwardDataSource.json, Type=vm:RecentAwardViewModel, IsDesignTimeCreatable=true}"
+                  ContentTemplate="{StaticResource RecentAwardList}" IsHeaderInteractive="{Binding HasMoreItems}" Style="{StaticResource AppHubSectionStyle}" />
     </Hub>
 
     <VisualStateManager.VisualStateGroups>
       <VisualStateGroup>
         <VisualState x:Name="SnappedView">
           <Storyboard>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SupplierOrganizationSection" Storyboard.TargetProperty="ContentTemplate">
-              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SupplierOrganizationListSnapped}"/>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="OpenOpportunitiesSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource OpenOpportunitiesListSnapped}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RecentAwardSection" Storyboard.TargetProperty="ContentTemplate">
+              <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource RecentAwardListSnapped}"/>
             </ObjectAnimationUsingKeyFrames>
           </Storyboard>
         </VisualState>

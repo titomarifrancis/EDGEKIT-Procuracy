@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "title": "IMPROVEMENT/UPGRADING OF GLAN MEDICARE & COMMUNITY",
+      "amount": "PHP 3,375,199.98",
+      "awardees": "RUCS KONSULT & CONSTRUCTION SERVICES",
+      "contact": "Nicanor Wilmer C. Amosin",
+      "awardeesaddress": "Valencia Drive cor. Casas Drive, Colinas Verdes Subd., Lagao Gen. Santos City South Cotabato",
+      "contactaddress": "Unit A-6, 9/F Francesca Tower Scout Borromeo Quezon City Metro Manila",
+      "telephone": "+6323323365",
+      "organizationname": "PROVINCE OF SARANGANI",
+      "organizationaddress": "Sarangani",
+      "_id": "35bd471b-4f52-4b84-bbee-47a23aa44c39"
+    },
+    {
+      "title": "Construction Projects",
+      "amount": "PHP 5,678,928.62",
+      "awardees": "COMPACT CONSTRUCTION AND SUPPLY",
+      "contact": "Hannibal U Adil",
+      "awardeesaddress": "#18 Earth St., Zenaida Subd. RH#8 Cotabato City Maguindanao",
+      "contactaddress": "#18 Earth St., Zenaida Subd. RH#8 Cotabato City Maguindanao",
+      "telephone": "+63645521148",
+      "organizationname": "DEPARTMENT OF PUBLIC WORKS AND HIGHWAYS -REGION XII-COTABATO",
+      "organizationaddress": "COTABATO",
+      "_id": "22e6e24f-a4e6-4747-a234-fd6b12ea78f7"
+    }
+  ]
+}
